@@ -1,0 +1,13 @@
+.syllabus {
+    margin: auto;
+
+    .list-group-item {
+        margin-bottom: 5px;
+    }
+
+    .list-group-item-text {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

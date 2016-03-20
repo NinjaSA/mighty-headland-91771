@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ninja SA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body ng-app="ninjaApp">
+        <!-- <ul ng-show="user.isAdmin" <ul class="nav navbar-nav">
+            <li><a ui-sref="home">Logout</a></li>
+        </ul>-->
+
+        <nav class="navbar navbar-default" ng-hide="$state.current.url == '/'">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" ng-click="showNav=!showNav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a class="navbar-brand" ng-click="showNav=false" ui-sref="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" ng-class="{'collapse': !showNav}">
+
+              <ul class="nav navbar-nav">
+                  <li><a ui-sref="addUser" ng-click="showNav=false">Add Ninja</a></li>
+                  <li><a ui-sref="users" ng-click="showNav=false">Ninjas</a></li>
+                  <li><a ui-sref="addTechnique" ng-click="showNav=false">Add a technique</a></li>
+                  <li><a ui-sref="login" ng-click="showNav=false">Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container" ng-cloak>
+            <div class="ui-view-container">
+               <div ui-view></div>
+           </div>
+            <div class="alert alert-{{ alert.type }} animated main-alert" ng-show="alert.show">
+                <p>{{alert.message}}</p>
+            </div>
+             <div class="alert alert-danger offline-alert" ng-show="isOffline">
+                 <p>You are offline</p>
+             </div>
+        </div>
+
+
+        <!-- DUMMY DATA
+        <script src="data/users.js"></script>
+        <script src="data/techniques.js"></script>
+        END OF DUMMY DATA -->
+
+        <script src="js/vendor/angular.min.js"></script>
+        <script src="js/vendor/angular-animate.min.js"></script>
+        <script src="js/vendor/angular.ui-router.min.js"></script>
+
+        <script src="data/levels.js"></script>
+
+        <script src="js/app/app.js"></script>
+        <script src="js/app/app.config.js"></script>
+
+        <script src="js/app/filters/groupByFilter.js"></script>
+
+        <script src="js/app/controllers/addTechniqueCtrl.js"></script>
+        <script src="js/app/controllers/addUserCtrl.js"></script>
+        <script src="js/app/controllers/homeCtrl.js"></script>
+        <script src="js/app/controllers/loginCtrl.js"></script>
+        <script src="js/app/controllers/techniqueDetailCtrl.js"></script>
+        <script src="js/app/controllers/techniquesListCtrl.js"></script>
+        <script src="js/app/controllers/updateTechniqueCtrl.js"></script>
+        <script src="js/app/controllers/updateUserCtrl.js"></script>
+        <script src="js/app/controllers/usersCtrl.js"></script>
+
+        <script src="js/app/services/alert.js"></script>
+        <script src="js/app/services/auth.js"></script>
+        <script src="js/app/services/authToken.js"></script>
+        <script src="js/app/services/authInterceptor.js"></script>
+        <script src="js/app/services/data.js"></script>
+        <script src="js/app/services/techniques.js"></script>
+    </body>
+</html>

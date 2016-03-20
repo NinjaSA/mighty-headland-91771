@@ -1,0 +1,22 @@
+<a ui-sref="home" class="btn btn-primary pull-right">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Back
+</a>
+
+<h1>{{ label.replace('-', ' ') }}</h1>
+
+<div class="form-group search">
+  <div class="col-lg-12">
+    <input type="search" ng-model="search" class="form-control" id="inputName" placeholder="Start typing the name of the techinque">
+    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+  </div>
+</div>
+
+<div ng-repeat="cat in techniques | groupBy: 'category'">
+    <h4>{{ cat }}</h4>
+    <div class="list-group">
+        <a ng-repeat="t in techniques | filter:search | filter:{category: cat} track by $index" ng-if="t.group == label" ui-sref="techniqueDetail({ kyu: '{{ label }}', techniqueId: '{{t._id}}'})" class="list-group-item">
+            {{ t.name }} <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+        </a>
+    </div>
+</div>
+<p ng-show="techniques.length == 0">There are currently no techniques in {{ label.replace('-', ' ') }}</p>
