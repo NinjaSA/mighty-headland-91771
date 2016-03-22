@@ -10,7 +10,7 @@
             <li><a ui-sref="home">Logout</a></li>
         </ul>-->
 
-        <nav class="navbar navbar-default" ng-hide="$state.current.url == '/'">
+        <nav class="navbar navbar-default" ng-controller="navbarCtrl" ng-show="authToken.isAuthenticated()">
           <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" ng-click="showNav=!showNav">
@@ -26,10 +26,10 @@
             <div class="collapse navbar-collapse" ng-class="{'collapse': !showNav}">
 
               <ul class="nav navbar-nav">
-                  <li><a ui-sref="addUser" ng-click="showNav=false">Add Ninja</a></li>
-                  <li><a ui-sref="users" ng-click="showNav=false">Ninjas</a></li>
-                  <li><a ui-sref="addTechnique" ng-click="showNav=false">Add a technique</a></li>
-                  <li><a ui-sref="login" ng-click="showNav=false">Logout</a></li>
+                  <li><a ng-if="isAdmin" ui-sref="addUser" ng-click="showNav=false">Add Ninja</a></li>
+                  <li><a ng-if="isAdmin" ui-sref="users" ng-click="showNav=false">Ninjas</a></li>
+                  <li><a ng-if="isAdmin" ui-sref="addTechnique" ng-click="showNav=false">Add a technique</a></li>
+                  <li><a ng-click="logout()">Logout</a></li>
               </ul>
             </div>
           </div>
@@ -64,6 +64,7 @@
 
         <script src="js/app/filters/groupByFilter.js"></script>
 
+        <script src="js/app/controllers/navbarCtrl.js"></script>
         <script src="js/app/controllers/addTechniqueCtrl.js"></script>
         <script src="js/app/controllers/addUserCtrl.js"></script>
         <script src="js/app/controllers/homeCtrl.js"></script>

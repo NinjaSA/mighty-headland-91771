@@ -19,6 +19,7 @@ angular.module('ninjaApp').factory('authToken', ['$window', function($window){
             storage.removeToken(userToken);
         },
         isAuthenticated: function(){
+            console.log(!!authToken.getToken())
             return !!authToken.getToken();
         }
     };

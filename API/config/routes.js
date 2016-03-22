@@ -1,5 +1,4 @@
 var mongoose = require('mongoose');
-var jwt = require('jsonwebtoken');
 var ctrl = require('../controllers');
 
 module.exports = function(router){

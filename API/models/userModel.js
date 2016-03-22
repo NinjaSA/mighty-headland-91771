@@ -5,11 +5,11 @@ var userSchema = new mongoose.Schema({
     "firstName": String,
     "lastName": String,
     "email": String,
+    "password": String,
     "dojo": String,
     "isActive": Boolean,
     "isAdmin": Boolean,
-    "level": String,
-    "password": String
+    "level": String
 });
 
 userSchema.methods.generateHash = function(password){
@@ -17,7 +17,7 @@ userSchema.methods.generateHash = function(password){
 };
 
 userSchema.methods.validatePassword = function(password){
-    return bcrypt.compareSync(password, this.password);
+    return bcrypt.compare(password, this.password);
 };
 
 userSchema.methods.toJSON = function(){

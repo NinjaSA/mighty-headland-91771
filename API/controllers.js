@@ -5,26 +5,29 @@ var config = require('./config/config');
 var jwt = require('jsonwebtoken');
 
 exports.loginUser = function(req, res){
-    // send ninjas only if admin
     User.findOne({ email: req.body.email }, function(err, user){
         var token;
 
         if(!user){
-            res.send(false);
+            res.send('User not found');
             return;
         }
 
-        if(user.validatePassword(req.body.password))
+        if(user.validatePassword(req.body.password)) {
             token = jwt.sign(user, config.SECRET);
+        }
+        else{
+            res.send('Wrong email or password!' );
+            return;
+        }
 
-        Technique.find({}, function(err, technique){
+        Technique.find({}, function(err, techniques){
 
             User.find({}, function(err, users){
-
                 res.send({
                     currentUser: user.toJSON(),
                     users: users,
-                    techniques: technique,
+                    techniques: techniques,
                     token: token
                 });
 
@@ -43,7 +46,7 @@ exports.addUser = function(req, res){
         if(user.length !== 0) {
             res.send({
                 isUser: false,
-                message: 'User does not exist'
+                message: 'User already exists'
             });
         }
         else{

@@ -1,7 +1,7 @@
 angular.module('ninjaApp')
     .controller('updateUserCtrl', ['$scope', '$stateParams', '$state', 'alert', 'userData', 'auth', function($scope, $stateParams, $state, alert, userData, auth){
         for(usr in userData.users){
-            if(users[usr]._id == $stateParams.userId){
+            if(userData.users[usr]._id == $stateParams.userId){
                 $scope.user = userData.users[usr];
                 $scope.viewingUser = userData.users[usr];
             }

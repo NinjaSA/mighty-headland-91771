@@ -6,7 +6,8 @@ angular.module('ninjaApp')
             techniques.addTechnique($scope.technique)
                 .then(
                     function success(res){
-                        techniqueData.techniques.push($scope.technique);
+                        console.log('TECHNIQUE ADDED', res)
+                        techniqueData.techniques.push(res.technique);
                         alert('success', 'A new technique has been added!');
                     },
                     function error(res){

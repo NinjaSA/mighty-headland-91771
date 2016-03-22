@@ -24,15 +24,15 @@ var levels = [
         "description": "Jo (Short Staff), Tonfa (P.R. 24 Baton)"
     },
     {
-        "title": "3rd Kyu",
+        "title": "3rd-kyu",
         "description": "4ft Hanbo (Medium Staff)"
     },
     {
-        "title": "2nd Kyu",
+        "title": "2nd-kyu",
         "description": "Belt work, Single-Arm Fighting"
     },
     {
-        "title": "1st Kyu",
+        "title": "1st-kyu",
         "description": "Nunchakas"
     }
 ];

@@ -6,7 +6,7 @@ angular.module('ninjaApp')
 
             auth.addUser($scope.user)
                 .success(function(res){
-                    userData.users.push($scope.user);
+                    userData.users.push(res.user);
                     alert('success', $scope.user.firstName + ' has been added!');
                     $scope.user = {};
                     $state.go('users');
