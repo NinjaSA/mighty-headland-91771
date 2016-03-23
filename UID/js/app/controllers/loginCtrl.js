@@ -17,7 +17,7 @@ angular.module('ninjaApp')
                         }
                     },
                     function error(res){
-                        alert('danger', err);
+                        alert('danger', 'Something went wrong!');
                     }
                 );
         }

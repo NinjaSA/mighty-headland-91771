@@ -16,10 +16,6 @@ userSchema.methods.generateHash = function(password){
     return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
 };
 
-userSchema.methods.validatePassword = function(password){
-    return bcrypt.compare(password, this.password);
-};
-
 userSchema.methods.toJSON = function(){
     var user = this.toObject();
 
@@ -27,6 +23,10 @@ userSchema.methods.toJSON = function(){
     delete user.password;
 
     return user;
+};
+
+userSchema.methods.validatePassword = function(password){
+    return bcrypt.compareSync(password, this.password);
 };
 
 module.exports = mongoose.model('User', userSchema);

@@ -1,11 +1,12 @@
-var mongoose = require('mongoose');
 var User = require('mongoose').model('User');
 var Technique = require('mongoose').model('Technique');
-var config = require('./config/config');
 var jwt = require('jsonwebtoken');
+var config = require('./config/config');
 
 exports.loginUser = function(req, res){
-    User.findOne({ email: req.body.email }, function(err, user){
+    var query = { email: req.body.email };
+
+    User.findOne(query, function(err, user){
         var token;
 
         if(!user){
@@ -42,8 +43,8 @@ exports.addUser = function(req, res){
     var newUser = new User();
     req.body.password = newUser.generateHash(req.body.password);
 
-    User.find({ email: req.body.email }, function(err, user){
-        if(user.length !== 0) {
+    User.findOne({ email: req.body.email.toLowerCase() }, function(err, user){
+        if(user) {
             res.send({
                 isUser: false,
                 message: 'User already exists'
