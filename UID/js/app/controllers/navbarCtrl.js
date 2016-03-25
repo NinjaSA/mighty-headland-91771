@@ -1,14 +1,15 @@
 angular.module('ninjaApp')
-    .controller('navbarCtrl', ['$scope', '$state', 'auth', 'authToken', function($scope, $state, auth, authToken){
-        $scope.isLoggedIn = $state.current.url == '/';
-        
-        $scope.isAdmin = auth.currentUser.isAdmin;
+    .controller('navbarCtrl', ['$rootScope', '$scope', '$state', '$document', 'auth', 'authToken', function($rootScope, $scope, $state, $document, auth, authToken){
+        $scope.isAuthenticated = authToken.isAuthenticated;
+
+        $rootScope.$on('user', function(){
+            $scope.isAdmin = auth.currentUser.isAdmin;
+        });
 
         $scope.logout = function(){
-            console.log(authToken.getToken());
             authToken.removeToken();
-            console.log(authToken.getToken());
             $scope.showNav = false;
             $state.go('login');
         };
+
 }]);

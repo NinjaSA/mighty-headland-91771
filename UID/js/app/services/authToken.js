@@ -1,6 +1,6 @@
 angular.module('ninjaApp').factory('authToken', ['$window', function($window){
     var cachedToken;
-    var storage = $window.localStorage;
+    var storage = $window.sessionStorage;
     var userToken = 'NinjaSA_Token';
 
     var authToken = {
@@ -16,10 +16,9 @@ angular.module('ninjaApp').factory('authToken', ['$window', function($window){
         },
         removeToken: function(){
             cachedToken = null;
-            storage.removeToken(userToken);
+            storage.removeItem(userToken);
         },
         isAuthenticated: function(){
-            console.log(!!authToken.getToken())
             return !!authToken.getToken();
         }
     };

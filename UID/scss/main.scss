@@ -21,7 +21,7 @@ h1{
 .alert {
     position: absolute;
     z-index: 999;
-    top: 20px;
+    bottom: 8%;
     box-shadow: 0 2px 5px #eee;
     right: 30px;
     min-width: 360px;
@@ -30,9 +30,14 @@ h1{
     left: 30px;
 }
 
-.offline-alert{
-    top:auto;
-    bottom:30px;
+.loading{
+    background: url('../images/713.gif') no-repeat center center #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
 }
 
 .clear{
@@ -105,6 +110,6 @@ h1{
   line-height: 1.8em;
 }
 
-[ng-cloak]{
-    display: none !important;
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
 }

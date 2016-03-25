@@ -1,8 +1,7 @@
 angular.module('ninjaApp')
     .service('auth', ['$http', '$state', 'API_URL', 'authToken', function ($http, $state, API_URL, authToken) {
         function authSuccess(res){
-            console.log(res)
-            authToken.setToken(res.Token);
+            authToken.setToken(res.token);
         }
 
         this.currentUser = {};

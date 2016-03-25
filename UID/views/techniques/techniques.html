@@ -11,10 +11,10 @@
   </div>
 </div>
 
-<div ng-repeat="cat in techniques | groupBy: 'category'">
-    <h4 ng-hide="items.length < 0">{{ cat }}</h4>
+ <div ng-repeat="cat in techniques | groupBy: 'category'">
+    <h4 ng-show="items.length > 0">{{ cat }}</h4>
     <div class="list-group">
-        <a ng-repeat="item in items = (t in techniques | filter:search | filter:{category: cat} track by $index)" ng-if="t.group == label" ui-sref="techniqueDetail({ kyu: '{{ label }}', techniqueId: '{{t._id}}'})" class="list-group-item">
+        <a ng-repeat="t in items = (techniques | filter:search | filter:{category: cat }) track by $index" ng-if="t.group == label" ui-sref="techniqueDetail({ kyu: '{{ label }}', techniqueId: '{{t._id}}'})" class="list-group-item">
             {{ t.name }} <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
         </a>
     </div>

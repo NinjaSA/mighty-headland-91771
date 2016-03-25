@@ -1,5 +1,5 @@
 angular.module('ninjaApp')
-    .controller('updateUserCtrl', ['$scope', '$stateParams', '$state', 'alert', 'userData', 'auth', function($scope, $stateParams, $state, alert, userData, auth){
+    .controller('updateUserCtrl', ['$rootScope', '$scope', '$stateParams', '$state', 'alert', 'userData', 'auth', function($rootScope, $scope, $stateParams, $state, alert, userData, auth){
         for(usr in userData.users){
             if(userData.users[usr]._id == $stateParams.userId){
                 $scope.user = userData.users[usr];
@@ -10,6 +10,7 @@ angular.module('ninjaApp')
         $scope.updateUser = function(deactivated){
             if (deactivated) $scope.user.isActive = false;
             var action = deactivated ? 'deactivated' : 'updated';
+            $rootScope.loading = true;
 
             auth.updateUser($scope.user)
                 .then(
@@ -22,6 +23,7 @@ angular.module('ninjaApp')
                 .finally(function(){
                     $state.go('users');
                     $scope.user = {};
+                    $rootScope.loading = false;
                 });
 
         };

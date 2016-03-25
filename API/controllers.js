@@ -46,7 +46,7 @@ exports.addUser = function(req, res){
     User.findOne({ email: req.body.email.toLowerCase() }, function(err, user){
         if(user) {
             res.send({
-                isUser: false,
+                hasUser: true,
                 message: 'User already exists'
             });
         }

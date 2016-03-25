@@ -1,4 +1,5 @@
-angular.module('ninjaApp').filter('groupBy', function () {
+angular.module('ninjaApp')
+.filter('groupBy', function () {
     var uniqueItems = function (data, key) {
         var result = [];
         for (var i = 0; i < data.length; i++) {

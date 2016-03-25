@@ -1,20 +1,29 @@
 angular.module('ninjaApp')
-    .controller('addUserCtrl', ['$scope', '$http', '$state', 'alert', 'userData', 'auth', 'API_URL', function($scope, $http, $state, alert, userData, auth, API_URL){
+    .controller('addUserCtrl', ['$rootScope', '$scope', '$http', '$state', 'alert', 'userData', 'auth', 'API_URL', function($rootScope, $scope, $http, $state, alert, userData, auth, API_URL){
         $scope.addUser = function(){
-            //$scope.user._id = new Date().getTime();
+            $rootScope.loading = true;
             $scope.user.isActive = true;
 
             auth.addUser($scope.user)
                 .success(function(res){
-                    userData.users.push(res.user);
-                    alert('success', $scope.user.firstName + ' has been added!');
-                    $scope.user = {};
-                    $state.go('users');
+                    console.log(res)
+                    if(!res.hasUser){
+                        userData.users.push(res.user);
+                        alert('success', $scope.user.firstName + ' has been added!');
+                        $scope.user = {};
+                        $state.go('users');
+                    }
+                    else{
+                        alert('danger', res.message);
+                    }
                 })
                 .error(function(err){
                     alert('danger', 'Something went wrong!', 5000);
                     $scope.user = {};
                     $state.go('users');
+                })
+                .finally(function(){
+                    $rootScope.loading = false;
                 });
         };
 }]);

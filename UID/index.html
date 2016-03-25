@@ -10,7 +10,7 @@
             <li><a ui-sref="home">Logout</a></li>
         </ul>-->
 
-        <nav class="navbar navbar-default" ng-controller="navbarCtrl" ng-show="authToken.isAuthenticated()">
+        <nav class="navbar navbar-default" ng-controller="navbarCtrl" ng-show="isAuthenticated()">
           <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" ng-click="showNav=!showNav">
@@ -19,16 +19,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-            <a class="navbar-brand" ng-click="showNav=false" ui-sref="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+              <a class="navbar-brand" ng-click="showNav=false" ui-sref="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
 
             </div>
-
+            
             <div class="collapse navbar-collapse" ng-class="{'collapse': !showNav}">
-
               <ul class="nav navbar-nav">
-                  <li><a ng-if="isAdmin" ui-sref="addUser" ng-click="showNav=false">Add Ninja</a></li>
-                  <li><a ng-if="isAdmin" ui-sref="users" ng-click="showNav=false">Ninjas</a></li>
-                  <li><a ng-if="isAdmin" ui-sref="addTechnique" ng-click="showNav=false">Add a technique</a></li>
+                  <li ng-click="showNav=false"><a ng-if="isAdmin" ui-sref="addUser">Add Ninja</a></li>
+                  <li ng-click="showNav=false"><a ng-if="isAdmin" ui-sref="users">Ninjas</a></li>
+                  <li ng-click="showNav=false"><a ng-if="isAdmin" ui-sref="addTechnique">Add a technique</a></li>
                   <li><a ng-click="logout()">Logout</a></li>
               </ul>
             </div>
@@ -45,6 +44,7 @@
              <div class="alert alert-danger offline-alert" ng-show="isOffline">
                  <p>You are offline</p>
              </div>
+             <div class="loading" ng-show="loading"></div>
         </div>
 
 
