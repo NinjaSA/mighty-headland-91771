@@ -18,4 +18,21 @@ angular.module('ninjaApp')
                     $rootScope.loading = false;
                 });
         };
+
+        $scope.uploadVideo = function(){
+            var video = {
+                files: document.getElementById('video').files,
+                name: $scope.technique.name || '',
+                description: $scope.technique.description || '',
+            }
+
+            $scope.uploading = true;
+            $scope.$apply();
+
+            techniques.uploadVideo(video, function(videoId){
+                $scope.technique.videoUrl = "https://player.vimeo.com/video/" + videoId;
+                $scope.uploading = false;
+                $scope.$apply();
+            });
+        };
 }]);

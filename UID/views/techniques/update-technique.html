@@ -33,17 +33,11 @@
 
     <div class="form-group">
       <div class="col-lg-12">
-      <label for="videoUrl" class="control-label">Choose a video to upload</label>
-        <input type="file" class="form-control" id="videoUrl" placeholder="Upload a video" ng-model="technique.videoUrl">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <div class="col-lg-12">
         <label for="category" class="control-label">Technique sub-category</label>
         <input required ng-model="technique.category" type="text" class="form-control" id="category" placeholder="eg. Body holds or Rolls">
       </div>
     </div>
+
     <div class="form-group">
       <div class="col-lg-12">
       <label for="description" class="control-label">Description</label>
@@ -51,7 +45,20 @@
       </div>
     </div>
 
-    <div class="form-group button-group">
+    <div class="form-group">
+      <div class="col-lg-12">
+      <label for="videoUrl" class="control-label">Choose a video to upload</label>
+        <input type="file" class="form-control" id="video" placeholder="Upload a video" onchange="angular.element(this).scope().uploadVideo()">
+      </div>
+    </div>
+
+  <div class="progress" ng-show="uploading">
+    <div id="progress" class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+     0%
+    </div>
+  </div>
+
+    <div class="form-group button-group" ng-hide="uploading">
         <div class="col-lg-12">
             <a ui-sref="techniquesList({label: technique.group})" ng-click="deleteTechnique()" class="btn btn-danger pull-left">Delete</a>
             <button type="submit" class="btn btn-success pull-right">Update</button>

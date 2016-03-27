@@ -5,7 +5,13 @@ angular.module('ninjaApp')
         for(t in techniqueData.techniques){
             if(techniqueData.techniques[t]._id == $stateParams.techniqueId){
                 $scope.technique = techniqueData.techniques[t];
-                $scope.videoUrl = $sce.trustAsResourceUrl($scope.technique.videoUrl);
             }
         }
+
+}])
+.filter('trustAsResourceUrl', ['$sce', function($sce) {
+    return function(val) {
+
+        return $sce.trustAsResourceUrl(val + '?title=0&byline=0');
+    };
 }]);

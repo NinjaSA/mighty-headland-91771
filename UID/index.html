@@ -2,7 +2,13 @@
 <html>
     <head>
         <title>Ninja SA</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui" name="viewport">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
+
+        <link href="jqtouch.png" rel="apple-touch-icon-precomposed">
+        <link href="jqtouch4.png" rel="apple-touch-icon-precomposed" sizes="114x114">
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body ng-app="ninjaApp">
@@ -22,7 +28,7 @@
               <a class="navbar-brand" ng-click="showNav=false" ui-sref="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
 
             </div>
-            
+
             <div class="collapse navbar-collapse" ng-class="{'collapse': !showNav}">
               <ul class="nav navbar-nav">
                   <li ng-click="showNav=false"><a ng-if="isAdmin" ui-sref="addUser">Add Ninja</a></li>
@@ -47,15 +53,10 @@
              <div class="loading" ng-show="loading"></div>
         </div>
 
-
-        <!-- DUMMY DATA
-        <script src="data/users.js"></script>
-        <script src="data/techniques.js"></script>
-        END OF DUMMY DATA -->
-
         <script src="js/vendor/angular.min.js"></script>
         <script src="js/vendor/angular-animate.min.js"></script>
         <script src="js/vendor/angular.ui-router.min.js"></script>
+        <script src="js/vendor/media-uploader.js"></script>
 
         <script src="data/levels.js"></script>
 

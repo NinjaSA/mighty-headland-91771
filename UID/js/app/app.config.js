@@ -77,7 +77,7 @@
 
         $rootScope.isOffline = !navigator.onLine;
     }])
-    .constant('API_URL', 'http://localhost:5555/api')
-    //.constant('API_URL', 'http://mighty-headland-91771.herokuapp.com/api');
+    //.constant('API_URL', 'http://localhost:5555/api')
+    .constant('API_URL', 'http://mighty-headland-91771.herokuapp.com/api');
 
 }());

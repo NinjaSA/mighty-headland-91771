@@ -14,7 +14,9 @@
 <span class="label label-primary">{{ technique.group }}</span>
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe width="640" height="480" src="https://www.youtube.com/embed/6VPOfYswDH8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <!-- <iframe width="640" height="480" src="https://www.youtube.com/embed/6VPOfYswDH8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+
+    <iframe src="{{ technique.videoUrl | trustAsResourceUrl }}" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 <div class="well" ng-show="technique.description">
