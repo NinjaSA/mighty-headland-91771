@@ -1,9 +1,11 @@
 angular.module('ninjaApp')
     .controller('updateUserCtrl', ['$rootScope', '$scope', '$stateParams', '$state', 'alert', 'userData', 'auth', function($rootScope, $scope, $stateParams, $state, alert, userData, auth){
+        var usrIndex;
+
         for(usr in userData.users){
             if(userData.users[usr]._id == $stateParams.userId){
+                usrIndex = usr;
                 $scope.user = userData.users[usr];
-                $scope.viewingUser = userData.users[usr];
             }
         }
 
@@ -27,10 +29,14 @@ angular.module('ninjaApp')
 
         $scope.removeUser = function(){
             $rootScope.loading = true;
+            $scope.user.isActive = false;
 
-            auth.removeUser($scope.user)
+            auth.removeUser($scope.user._id)
                 .then(function success(res){
-                    alert('success', res.data.firstName + ' has been removed!');
+                    var name = res.data.firstName || 'Ninja';
+
+                    alert('success', name + ' has been removed!');
+                    userData.users.splice(usrIndex, 1);
                 }, function error(res){
                     alert('danger', 'Something went wrong!', 5000);
                 })

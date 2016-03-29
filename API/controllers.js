@@ -80,7 +80,7 @@ exports.updateUser = function(req, res){
 }
 
 exports.removeUser = function(req, res){
-    User.remove({ _id: req.body.id }, function(err){
+    User.remove({ _id: req.query.id }, function(err){
         res.send({ message: 'Ninja has been deleted' });
     });
 }
@@ -90,7 +90,6 @@ exports.addTechnique = function(req, res){
         res.send(technique);
     });
 }
-
 
 exports.updateTechnique = function(req, res){
     Technique.findById(req.body._id, function(err, technique){

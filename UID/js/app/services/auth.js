@@ -18,7 +18,7 @@ angular.module('ninjaApp')
             return $http.put(API_URL + '/user', userObject).success(authSuccess);
         };
 
-        this.removeUser = function(userObject){
-            return $http.delete(API_URL + '/user', userObject).success(authSuccess);
+        this.removeUser = function(userId){
+            return $http.delete(API_URL + '/user/?id=' + userId).success(authSuccess);
         };
     }]);
