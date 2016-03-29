@@ -4,7 +4,7 @@
 
 <h1>{{ label.replace('-', ' ') }}</h1>
 
-<div class="form-group search">
+<div class="form-group search" ng-show="techniques.length >= 8">
   <div class="col-lg-12">
     <input type="search" ng-model="search" class="form-control" id="inputName" placeholder="Start typing the name of the techinque">
     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>

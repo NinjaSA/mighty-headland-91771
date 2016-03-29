@@ -9,28 +9,28 @@
     <div class="form-group">
       <div class="col-lg-12">
         <label for="inputfName" class="control-label">First name</label>
-        <input ng-model="user.firstName" type="text" class="form-control" id="inputfName" placeholder="First name">
+        <input autocomplete="off" ng-model="user.firstName" type="text" class="form-control" id="inputfName" placeholder="First name">
       </div>
     </div>
 
     <div class="form-group">
       <div class="col-lg-12">
         <label for="inputlname" class="control-label">Last name</label>
-        <input ng-model="user.lastName" type="text" class="form-control" id="inputlName" placeholder="Last name">
+        <input autocomplete="off" ng-model="user.lastName" type="text" class="form-control" id="inputlName" placeholder="Last name">
       </div>
     </div>
 
     <div class="form-group">
       <div class="col-lg-12">
       <label for="inputEmail" class="control-label">Email</label>
-        <input ng-model="user.email" type="email" class="form-control" id="inputEmail" placeholder="Email">
+        <input autocomplete="off" ng-model="user.email" type="email" class="form-control" id="inputEmail" placeholder="Email">
       </div>
     </div>
 
     <div class="form-group">
       <div class="col-lg-12">
         <label for="inputDojo" class="control-label">Dojo</label>
-        <input ng-model="user.dojo"  type="text" class="form-control" id="inputDojo" placeholder="Dojo">
+        <input autocomplete="off" ng-model="user.dojo" type="text" class="form-control" id="inputDojo" placeholder="Dojo">
       </div>
     </div>
 
@@ -47,8 +47,12 @@
           <option value="3rd-kyu">3rd Kyu</option>
           <option value="2nd-kyu">2nd Kyu</option>
           <option value="1st-kyu">1st Kyu</option>
-          <option value="1st-Dan">1st Dan</option>
-          <option value="senior">2nd Dan +</option>
+          <option value="Dan1st">1st Dan</option>
+          <option value="Dan2nd">2nd Dan</option>
+          <option value="Dan3rd">3rd Dan</option>
+          <option value="Dan4th">4th Dan</option>
+          <option value="Dan5th">5th Dan</option>
+          <option value="Dan6th">6th Dan</option>
         </select>
       </div>
     </div>

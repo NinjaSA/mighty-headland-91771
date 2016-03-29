@@ -14,7 +14,7 @@ angular.module('ninjaApp')
 
                             $rootScope.$broadcast('user');
                             $rootScope.loading = false;
-                            alert('success', 'Welcome ' + res.data.currentUser.firstName);
+                            alert('success', 'Hey ' + res.data.currentUser.firstName);
                             $state.go('home');
                         }
                         else{
