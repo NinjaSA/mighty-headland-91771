@@ -13,7 +13,6 @@ angular.module('ninjaApp')
                             techniqueData.techniques = res.data.techniques;
 
                             $rootScope.$broadcast('user');
-                            $rootScope.loading = false;
                             alert('success', 'Hey ' + res.data.currentUser.firstName);
                             $state.go('home');
                         }
@@ -24,6 +23,9 @@ angular.module('ninjaApp')
                     function error(res){
                         alert('danger', 'Something went wrong!');
                     }
-                );
+                )
+                .finally(function(){
+                    $rootScope.loading = false;
+                });
         }
 }]);

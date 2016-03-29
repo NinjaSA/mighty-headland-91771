@@ -8,23 +8,30 @@ angular.module('ninjaApp')
         }
 
         $scope.updateUser = function(deactivated){
-            if (deactivated) $scope.user.isActive = false;
-            var action = deactivated ? 'deactivated' : 'updated';
-            $rootScope.loading = true;
+            var confirmation = true,
+                action = 'updated';
 
-            auth.updateUser($scope.user)
-                .then(
-                    function success(res){
-                        alert('success', $scope.user.firstName + ' has been ' + action +'!');
-                    },
-                    function error(res){
-                        alert('danger', 'Something went wrong!', 5000);
-                    })
-                .finally(function(){
-                    $state.go('users');
-                    $scope.user = {};
-                    $rootScope.loading = false;
-                });
+            if (deactivated) {
+                confirmation = confirm('Are you sure you want to deactivate ' + $scope.user.firstName);
+                action = 'deactivated';
+                $scope.user.isActive = false;
+            }
 
+            if(confirmaion){
+                $rootScope.loading = true;
+                auth.updateUser($scope.user)
+                    .then(
+                        function success(res){
+                            alert('success', $scope.user.firstName + ' has been ' + action +'!');
+                        },
+                        function error(res){
+                            alert('danger', 'Something went wrong!', 5000);
+                        })
+                    .finally(function(){
+                        $state.go('users');
+                        $scope.user = {};
+                        $rootScope.loading = false;
+                    });
+            }
         };
 }]);
