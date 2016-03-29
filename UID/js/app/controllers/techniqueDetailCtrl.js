@@ -11,7 +11,6 @@ angular.module('ninjaApp')
 }])
 .filter('trustAsResourceUrl', ['$sce', function($sce) {
     return function(val) {
-
         return $sce.trustAsResourceUrl(val + '?title=0&byline=0');
     };
 }]);

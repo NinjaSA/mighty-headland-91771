@@ -5,17 +5,12 @@
     <a ui-sref="techniquesList({ label: technique.group })" class="btn btn-primary pull-left">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Back
     </a>
-    <!--<a ui-sref="home" class="btn btn-danger pull-left">
-        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Remove
-    </a>-->
 </div>
 
 <h3 class="clear">{{ technique.name }}</h3>
 <span class="label label-primary">{{ technique.group }}</span>
 
-<div class="embed-responsive embed-responsive-16by9">
-    <!-- <iframe width="640" height="480" src="https://www.youtube.com/embed/6VPOfYswDH8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
-
+<div class="embed-responsive embed-responsive-16by9" ng-show="technique.videoUrl">
     <iframe src="{{ technique.videoUrl | trustAsResourceUrl }}" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
