@@ -52,26 +52,22 @@ angular.module('ninjaApp')
         };
 
         $scope.deleteTechnique = function(){
-            var confirmation = confirm('Are you sure you want to remove this technique');
+            for(t in techniqueData.techniques){
+                if(techniqueData.techniques[t]._id == $stateParams.techniqueId){
+                    var index = t;
 
-            if(confirmation){
-                for(t in techniqueData.techniques){
-                    if(techniqueData.techniques[t]._id == $stateParams.techniqueId){
-                        var index = t;
-
-                        techniques.removeTechnique(techniqueData.techniques[t])
-                            .then(
-                                function success(res){
-                                    alert('success', '"' + techniqueData.techniques[index].name + '" has been deleted!');
-                                    techniqueData.techniques.splice(index, 1);
-                                },
-                                function error(err){
-                                    alert('danger', 'Something went wrong!');
-                                })
-                            .finally(function(){
-                                $scope.technique = {};
-                            });
-                    }
+                    techniques.removeTechnique(techniqueData.techniques[t])
+                        .then(
+                            function success(res){
+                                alert('success', '"' + techniqueData.techniques[index].name + '" has been deleted!');
+                                techniqueData.techniques.splice(index, 1);
+                            },
+                            function error(err){
+                                alert('danger', 'Something went wrong!');
+                            })
+                        .finally(function(){
+                            $scope.technique = {};
+                        });
                 }
             }
         };

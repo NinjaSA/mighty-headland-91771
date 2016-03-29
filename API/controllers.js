@@ -79,15 +79,18 @@ exports.updateUser = function(req, res){
     });
 }
 
-exports.addTechnique = function(req, res){
-    // 1. Upload to Youtube
-    // 2. On callback, add VideoUrl to req.body
-    // 3. Then create technique
+exports.removeUser = function(req, res){
+    User.remove({ _id: req.body.id }, function(err){
+        res.send({ message: 'Ninja has been deleted' });
+    });
+}
 
+exports.addTechnique = function(req, res){
     Technique.create(req.body, function(err, technique){
         res.send(technique);
     });
 }
+
 
 exports.updateTechnique = function(req, res){
     Technique.findById(req.body._id, function(err, technique){

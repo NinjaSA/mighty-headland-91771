@@ -4,7 +4,8 @@ var ctrl = require('../controllers');
 module.exports = function(router){
     router.route('/user')
         .post(ctrl.addUser)
-        .put(ctrl.updateUser);
+        .put(ctrl.updateUser)
+        .delete(ctrl.removeUser);
 
     router.route('/login')
         .post(ctrl.loginUser);
