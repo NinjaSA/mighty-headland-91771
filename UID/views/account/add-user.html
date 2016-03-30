@@ -69,8 +69,15 @@
 
     <div class="form-group">
         <div class="checkbox col-lg-12">
-          <input id="instructor" type="checkbox" ng-model="user.isAdmin">
-          <label for="instructor" > This Ninja is an administor</label>
+          <input id="instructor" type="checkbox" ng-model="user.isInstructor">
+          <label for="instructor" >This Ninja is an instructor</label>
+        </div>
+    </div>
+
+    <div class="form-group" ng-if="isAdmin">
+        <div class="checkbox col-lg-12">
+          <input id="admin" type="checkbox" ng-model="user.isAdmin">
+          <label for="admin" > This Ninja is an administor</label>
         </div>
     </div>
 

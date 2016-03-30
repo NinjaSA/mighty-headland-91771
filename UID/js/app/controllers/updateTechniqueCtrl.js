@@ -1,6 +1,8 @@
 angular.module('ninjaApp')
-    .controller('updateTechniqueCtrl', ['$rootScope', '$scope', '$state', '$stateParams', 'alert', 'techniqueData', 'techniques', function($rootScope, $scope, $state, $stateParams, alert, techniqueData, techniques){
+    .controller('updateTechniqueCtrl', ['$rootScope', '$scope', '$state', '$stateParams', 'alert', 'techniqueData', 'techniques', 'auth', function($rootScope, $scope, $state, $stateParams, alert, techniqueData, techniques, auth){
         $scope.kyu = $stateParams.kyu;
+
+        $scope.isAdmin = auth.currentUser.isAdmin;
 
         for(t in techniqueData.techniques){
             if(techniqueData.techniques[t]._id == $stateParams.techniqueId){
@@ -13,6 +15,7 @@ angular.module('ninjaApp')
             $rootScope.loading = true;
             for(t in techniqueData.techniques){
                 if(techniqueData.techniques[t]._id == $stateParams.techniqueId){
+                    var index = t;
 
                     techniques.updateTechnique(techniqueData.techniques[t])
                         .then(
@@ -24,8 +27,8 @@ angular.module('ninjaApp')
                             })
                         .finally(function(){
                             $state.go('techniqueDetail', {
-                                kyu: techniqueData.techniques[t].group,
-                                techniqueId: techniqueData.techniques[t]._id
+                                kyu: techniqueData.techniques[index].group,
+                                techniqueId: techniqueData.techniques[index]._id
                             });
                             $rootScope.loading = false;
                             $scope.technique = {};

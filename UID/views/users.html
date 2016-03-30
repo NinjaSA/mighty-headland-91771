@@ -12,7 +12,7 @@
           <h4 class="list-group-item-heading">{{ ninja.firstName }} {{ ninja.lastName }}</h4>
           <p class="list-group-item-text">
               <strong>{{ ninja.dojo }}</strong>
-              <span class="label label-primary pull-right" ng-class="{'label-danger': ninja.isAdmin}">{{ ninja.isAdmin ? 'Instructor' : ninja.level.replace('-', ' ') }}</span>
+              <span class="label label-primary pull-right" ng-class="{'label-danger': ninja.isInstructor}">{{ ninja.level.replace('-', ' ') }}</span>
           </p>
       </a>
   </div>

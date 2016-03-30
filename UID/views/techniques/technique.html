@@ -1,19 +1,21 @@
-<div class="button-group clear">
-    <a ui-sref="editTechnique({ techniqueId: '{{ technique._id }}' })" class="btn btn-success pull-right">
-        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
-    </a>
-    <a ui-sref="techniquesList({ label: technique.group })" class="btn btn-primary pull-left">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Back
-    </a>
-</div>
+<div class="technique">
+    <div class="button-group clear">
+        <a ng-if="isInstructor" ui-sref="editTechnique({ techniqueId: '{{ technique._id }}' })" class="btn btn-success pull-right">
+            <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+        </a>
+        <a ui-sref="techniquesList({ label: technique.group })" class="btn btn-primary pull-left">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Back
+        </a>
+    </div>
 
-<h3 class="clear">{{ technique.name }}</h3>
-<span class="label label-primary">{{ technique.group }}</span>
+    <h3 class="clear">{{ technique.name }}</h3>
+    <span class="label label-primary">{{ technique.group }}</span>
 
-<div class="embed-responsive embed-responsive-16by9" ng-show="technique.videoUrl">
-    <iframe src="{{ technique.videoUrl | trustAsResourceUrl }}" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
+    <div class="embed-responsive embed-responsive-16by9" ng-show="technique.videoUrl">
+        <iframe src="{{ technique.videoUrl | trustAsResourceUrl }}" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
 
-<div class="well" ng-show="technique.description">
-    {{ technique.description }}
+    <div class="well description" ng-show="technique.description">
+        {{ technique.description }}
+    </div>
 </div>

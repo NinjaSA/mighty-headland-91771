@@ -2,6 +2,8 @@ angular.module('ninjaApp')
     .controller('updateUserCtrl', ['$rootScope', '$scope', '$stateParams', '$state', 'alert', 'userData', 'auth', function($rootScope, $scope, $stateParams, $state, alert, userData, auth){
         var usrIndex;
 
+        $scope.isAdmin = auth.currentUser.isAdmin;
+        
         for(usr in userData.users){
             if(userData.users[usr]._id == $stateParams.userId){
                 usrIndex = usr;

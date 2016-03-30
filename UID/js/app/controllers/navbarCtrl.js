@@ -3,7 +3,7 @@ angular.module('ninjaApp')
         $scope.isAuthenticated = authToken.isAuthenticated;
 
         $rootScope.$on('user', function(){
-            $scope.isAdmin = auth.currentUser.isAdmin;
+            $scope.isInstructor = auth.currentUser.isInstructor || auth.currentUser.isAdmin;
         });
 
         $scope.logout = function(){

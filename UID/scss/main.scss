@@ -7,7 +7,7 @@
 @import "includes/login";
 
 .container {
-    padding: 5px 25px 30px;
+    padding: 0 15px 30px;
     max-width: 480px;
 }
 .container-fluid{
@@ -71,7 +71,7 @@ h1{
 }
 
 .embed-responsive {
-    margin: 30px 0;
+    margin: 30px 0 0;
 }
 
 .button-group {
@@ -90,7 +90,11 @@ h1{
         font-size: 1.4em;
     }
 }
-
+.technique{
+    .description{
+        margin-top:30px;
+    }
+}
 .checkbox input[type=checkbox] {
     display:none;
 }

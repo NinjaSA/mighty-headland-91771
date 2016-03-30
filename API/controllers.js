@@ -71,6 +71,7 @@ exports.updateUser = function(req, res){
         user.dojo = req.body.dojo,
         user.isActive = req.body.isActive,
         user.isAdmin = req.body.isAdmin,
+        user.isInstructor = req.body.isInstructor,
         user.level = req.body.level,
 
         user.save(function(){

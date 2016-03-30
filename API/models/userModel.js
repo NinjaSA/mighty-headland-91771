@@ -9,6 +9,7 @@ var userSchema = new mongoose.Schema({
     "dojo": String,
     "isActive": Boolean,
     "isAdmin": Boolean,
+    "isInstructor": Boolean,
     "level": String
 });
 

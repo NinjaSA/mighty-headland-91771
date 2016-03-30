@@ -1,5 +1,7 @@
 angular.module('ninjaApp')
     .controller('addUserCtrl', ['$rootScope', '$scope', '$http', '$state', 'alert', 'userData', 'auth', 'API_URL', function($rootScope, $scope, $http, $state, alert, userData, auth, API_URL){
+        $scope.isAdmin = auth.currentUser.isAdmin;
+        
         $scope.addUser = function(){
             $rootScope.loading = true;
             $scope.user.isActive = true;

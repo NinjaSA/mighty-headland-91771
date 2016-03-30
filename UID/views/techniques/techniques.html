@@ -15,7 +15,7 @@
     <h4 ng-show="items.length > 0">{{ cat }}</h4>
     <div class="list-group">
         <a ng-repeat="t in items = (techniques | filter:search | filter:{category: cat }) track by $index" ng-if="t.group == label" ui-sref="techniqueDetail({ kyu: '{{ label }}', techniqueId: '{{t._id}}'})" class="list-group-item">
-            {{ t.name }} <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+            {{ t.name }} <span ng-if="t.videoUrl || t.description" class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
         </a>
     </div>
 </div>

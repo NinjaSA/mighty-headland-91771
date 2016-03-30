@@ -12,10 +12,6 @@
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body ng-app="ninjaApp">
-        <!-- <ul ng-show="user.isAdmin" <ul class="nav navbar-nav">
-            <li><a ui-sref="home">Logout</a></li>
-        </ul>-->
-
         <nav class="navbar navbar-default" ng-controller="navbarCtrl" ng-show="isAuthenticated()">
           <div class="container-fluid">
             <div class="navbar-header">
@@ -31,9 +27,9 @@
 
             <div class="collapse navbar-collapse" ng-class="{'collapse': !showNav}">
               <ul class="nav navbar-nav">
-                  <li ng-click="showNav=false"><a ng-if="isAdmin" ui-sref="addUser">Add Ninja</a></li>
-                  <li ng-click="showNav=false"><a ng-if="isAdmin" ui-sref="users">Ninjas</a></li>
-                  <li ng-click="showNav=false"><a ng-if="isAdmin" ui-sref="addTechnique">Add a technique</a></li>
+                  <li ng-click="showNav=false"><a ng-if="isInstructor" ui-sref="addUser">Add Ninja</a></li>
+                  <li ng-click="showNav=false"><a ng-if="isInstructor" ui-sref="users">Ninjas</a></li>
+                  <li ng-click="showNav=false"><a ng-if="isInstructor" ui-sref="addTechnique">Add a technique</a></li>
                   <li><a ng-click="logout()">Logout</a></li>
               </ul>
             </div>
