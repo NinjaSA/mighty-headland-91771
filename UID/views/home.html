@@ -1,6 +1,7 @@
 <div class="syllabus">
     <div class="list-group">
         <a ng-repeat="level in levels track by $index" ng-if="checkLevel(level.title)" ui-sref="techniquesList({ label: level.title })" class="list-group-item">
+            <em ng-if="countTechniques(level.title) > 0" class="pull-right badge badge-primary">{{ countTechniques(level.title) }}</em>
             <h4 class="list-group-item-heading">{{ level.title.replace('-', ' ') }}</h4>
             <p class="list-group-item-text">{{ level.description }}</p>
         </a>

@@ -2,7 +2,7 @@ angular.module('ninjaApp')
     .controller('updateTechniqueCtrl', ['$rootScope', '$scope', '$state', '$stateParams', 'alert', 'techniqueData', 'techniques', 'auth', function($rootScope, $scope, $state, $stateParams, alert, techniqueData, techniques, auth){
         $scope.kyu = $stateParams.kyu;
 
-        $scope.isAdmin = auth.currentUser.isAdmin;
+        $scope.isAdmin = auth.currentUser.isAdmin;  
 
         for(t in techniqueData.techniques){
             if(techniqueData.techniques[t]._id == $stateParams.techniqueId){

@@ -8,8 +8,8 @@
 </div>
 
   <div class="list-group">
-      <a ui-sref="editUser({userId: '{{ninja._id}}' })" ng-repeat="ninja in users | filter:search track by $index" class=" clear list-group-item">
-          <h4 class="list-group-item-heading">{{ ninja.firstName }} {{ ninja.lastName }}</h4>
+      <a ui-sref="editUser({userId: '{{ninja._id}}' })" ng-repeat="ninja in users | filter:search | orderBy: 'firstName' track by $index" class=" clear list-group-item">
+          <h4 class="list-group-item-heading"><span ng-if="ninja.isInstructor">Sensei</span> {{ ninja.firstName }} {{ ninja.lastName }}</h4>
           <p class="list-group-item-text">
               <strong>{{ ninja.dojo }}</strong>
               <span class="label label-primary pull-right" ng-class="{'label-danger': ninja.isInstructor}">{{ ninja.level.replace('-', ' ') }}</span>

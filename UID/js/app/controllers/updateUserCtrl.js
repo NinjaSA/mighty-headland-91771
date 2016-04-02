@@ -3,7 +3,7 @@ angular.module('ninjaApp')
         var usrIndex;
 
         $scope.isAdmin = auth.currentUser.isAdmin;
-        
+
         for(usr in userData.users){
             if(userData.users[usr]._id == $stateParams.userId){
                 usrIndex = usr;
@@ -30,12 +30,14 @@ angular.module('ninjaApp')
         };
 
         $scope.removeUser = function(){
+            var firstName = $scope.user.firstName;
+
             $rootScope.loading = true;
             $scope.user.isActive = false;
 
             auth.removeUser($scope.user._id)
                 .then(function success(res){
-                    var name = res.data.firstName || 'Ninja';
+                    var name = firstName || 'Ninja';
 
                     alert('success', name + ' has been removed!');
                     userData.users.splice(usrIndex, 1);

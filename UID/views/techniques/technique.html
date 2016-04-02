@@ -1,6 +1,6 @@
 <div class="technique">
     <div class="button-group clear">
-        <a ng-if="isInstructor" ui-sref="editTechnique({ techniqueId: '{{ technique._id }}' })" class="btn btn-success pull-right">
+        <a ng-if="isInstructor || isAdmin" ui-sref="editTechnique({ techniqueId: '{{ technique._id }}' })" class="btn btn-success pull-right">
             <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
         </a>
         <a ui-sref="techniquesList({ label: technique.group })" class="btn btn-primary pull-left">

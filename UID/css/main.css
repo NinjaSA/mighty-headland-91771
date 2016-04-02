@@ -3950,7 +3950,7 @@ a.label:hover, a.label:focus {
   white-space: nowrap;
   text-align: center;
   background-color: #7A8288;
-  border-radius: 10px; }
+  border-radius: 3px; }
   .badge:empty {
     display: none; }
   .btn .badge {
@@ -5358,10 +5358,11 @@ h1 {
   z-index: 999;
   bottom: 5%;
   box-shadow: 0 2px 5px #eee;
-  right: 30px;
   font-size: 1.2em;
   text-align: center;
-  left: 30px; }
+  left: 50%;
+  width: 300px;
+  margin-left: -150px; }
 
 .loading {
   background: url("../images/713.gif") no-repeat center center #333;

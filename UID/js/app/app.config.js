@@ -9,28 +9,28 @@
                     controller: 'homeCtrl',
                     authenticate: true
                 })
+
+                // Users
+                .state('login', {
+                    url: '/',
+                    templateUrl: 'views/users/login.html',
+                    controller: 'loginCtrl'
+                })
                 .state('users', {
                     url: '/users',
-                    templateUrl: 'views/users.html',
+                    templateUrl: 'views/users/users.html',
                     controller: 'usersCtrl',
                     authenticate: true
                 })
-
-                // Account
-                .state('login', {
-                    url: '/',
-                    templateUrl: 'views/account/login.html',
-                    controller: 'loginCtrl'
-                })
                 .state('addUser', {
                     url: '/user/add',
-                    templateUrl: 'views/account/add-user.html',
+                    templateUrl: 'views/users/add-user.html',
                     controller: 'addUserCtrl',
                     authenticate: true
                 })
                 .state('editUser', {
                     url: '/user/edit/:userId',
-                    templateUrl: 'views/account/update-user.html',
+                    templateUrl: 'views/users/update-user.html',
                     controller: 'updateUserCtrl',
                     authenticate: true
                 })
@@ -73,11 +73,20 @@
                 $state.go("login");
                 event.preventDefault();
             }
+            if (toState.resolve) {
+                $rootScope.loading = true;
+            }
+        });
+
+        $rootScope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams) {
+            if (toState.resolve) {
+                $rootScope.loading = false;
+            }
         });
 
         $rootScope.isOffline = !navigator.onLine;
     }])
-    .constant('API_URL', 'http://localhost:5555/api')
-    //.constant('API_URL', 'http://mighty-headland-91771.herokuapp.com/api');
+    //.constant('API_URL', 'http://localhost:5555/api')
+    .constant('API_URL', 'http://mighty-headland-91771.herokuapp.com/api');
 
 }());
