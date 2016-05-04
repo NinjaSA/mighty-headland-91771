@@ -65,7 +65,7 @@
 
             $httpProvider.interceptors.push('authInterceptor');
     }])
-    .run(['$rootScope', '$state', 'authToken', function($rootScope, $state, authToken)  {
+    .run(['$rootScope', '$http', '$state', 'authToken', function($rootScope, $http, $state, authToken)  {
         authToken.removeToken();
 
         $rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState, fromParams){
@@ -73,18 +73,15 @@
                 $state.go("login");
                 event.preventDefault();
             }
-            if (toState.resolve) {
-                $rootScope.loading = true;
-            }
         });
 
-        $rootScope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams) {
-            if (toState.resolve) {
-                $rootScope.loading = false;
-            }
-        });
+        $rootScope.loading = function(){
+            return $http.pendingRequests.length > 0;
+        }
 
-        $rootScope.isOffline = !navigator.onLine;
+        $rootScope.isOnline = function(){
+            return navigator.onLine;
+        }
     }])
     //.constant('API_URL', 'http://localhost:5555/api')
     .constant('API_URL', 'http://mighty-headland-91771.herokuapp.com/api');

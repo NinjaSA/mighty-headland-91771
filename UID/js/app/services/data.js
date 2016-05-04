@@ -7,14 +7,14 @@ angular.module('ninjaApp')
     })
     .service('levelsData', function(){
         this.levels = [
-            { "title": "9th-kyu", "description": "Stances, Deflections, Elements, Rolls, Kata Dante" },
-            { "title": "8th-kyu", "description": "Strikes, Kicks, Multiple Attackers, Grappling Essentials" },
-            { "title": "7th-kyu", "description": "Take downs, Atemi-jitsu, Grappling (Basic Submissions)" },
-            { "title": "6th-kyu", "description": "Groundwork, Body-holds, Pain Compliance, Gun Hold-ups" },
-            { "title": "5th-kyu", "description": "Knife defence" },
-            { "title": "4th-kyu", "description": "Jo (Short Staff), Tonfa (P.R. 24 Baton)" },
-            { "title": "3rd-kyu", "description": "4ft Hanbo (Medium Staff)" },
-            { "title": "2nd-kyu", "description": "Belt work, Single-Arm Fighting" },
-            { "title": "1st-kyu", "description": "Nunchakas" }
+            { "title": "9th-kyu", "description": "Deflections, Stances, Elements, Jutai jutsu" },
+            { "title": "8th-kyu", "description": "Atemi Jutsu , Kicks, Jutai Jutsu" },
+            { "title": "7th-kyu", "description": "Takedowns, Locks, Jutai Jutsu" },
+            { "title": "6th-kyu", "description": "Body-holds, Pain Compliance, Gun Hold-ups" },
+            { "title": "5th-kyu", "description": "Knife defence, Ninja Keyring" },
+            { "title": "4th-kyu", "description": "Jojutsu (Short stick), Tonfa PR24" },
+            { "title": "3rd-kyu", "description": "Hanbojutsu (Med Staff), Kali" },
+            { "title": "2nd-kyu", "description": "Nunchaku and Belt Work (Chain)" },
+            { "title": "1st-kyu", "description": "Single Arm fighting and Ninjato (Katas)" }
         ]
     });

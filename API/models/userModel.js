@@ -7,7 +7,6 @@ var userSchema = new mongoose.Schema({
     "email": String,
     "password": String,
     "dojo": String,
-    "isActive": Boolean,
     "isAdmin": Boolean,
     "isInstructor": Boolean,
     "level": String

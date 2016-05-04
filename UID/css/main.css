@@ -5337,7 +5337,7 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
   border-top-right-radius: 0; }
 
 .form-signin button {
-  margin-bottom: 15px; }
+  margin: 30px 0; }
 
 .container {
   padding: 0 15px 30px;
@@ -5349,8 +5349,26 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
 h1 {
   margin-top: 0; }
 
+h1.heading {
+  font-size: 28px;
+  margin: 5px 0 25px; }
+
+.help-block {
+  float: right; }
+
 .progress-bar {
   padding: 0 5px; }
+
+.form-control[disabled] {
+  opacity: 1;
+  background-color: transparent;
+  margin: 0 20px 10px;
+  padding: 0;
+  box-shadow: none;
+  line-height: 1em;
+  border: none;
+  color: #fff;
+  height: 18px; }
 
 .alert {
   padding: 15px 0;

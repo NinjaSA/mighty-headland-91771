@@ -2,7 +2,7 @@ angular.module('ninjaApp')
     .controller('updateTechniqueCtrl', ['$rootScope', '$scope', '$state', '$stateParams', 'alert', 'techniqueData', 'techniques', 'auth', function($rootScope, $scope, $state, $stateParams, alert, techniqueData, techniques, auth){
         $scope.kyu = $stateParams.kyu;
 
-        $scope.isAdmin = auth.currentUser.isAdmin;  
+        $scope.isAdmin = auth.currentUser.isAdmin;
 
         for(t in techniqueData.techniques){
             if(techniqueData.techniques[t]._id == $stateParams.techniqueId){
@@ -11,28 +11,29 @@ angular.module('ninjaApp')
             }
         }
 
-        $scope.updateTechnique = function(){
-            $rootScope.loading = true;
-            for(t in techniqueData.techniques){
-                if(techniqueData.techniques[t]._id == $stateParams.techniqueId){
-                    var index = t;
+        $scope.updateTechnique = function(isValid){
+            $scope.submitted = true;
+            if(isValid){
+                for(t in techniqueData.techniques){
+                    if(techniqueData.techniques[t]._id == $stateParams.techniqueId){
+                        var index = t;
 
-                    techniques.updateTechnique(techniqueData.techniques[t])
-                        .then(
-                            function success(res){
-                                alert('success', 'The technique has been updated!');
-                            },
-                            function error(err){
-                                alert('danger', 'Something went wrong!');
-                            })
-                        .finally(function(){
-                            $state.go('techniqueDetail', {
-                                kyu: techniqueData.techniques[index].group,
-                                techniqueId: techniqueData.techniques[index]._id
+                        techniques.updateTechnique(techniqueData.techniques[t])
+                            .then(
+                                function success(res){
+                                    alert('success', 'The technique has been updated!');
+                                },
+                                function error(err){
+                                    alert('danger', 'Something went wrong!');
+                                })
+                            .finally(function(){
+                                $state.go('techniqueDetail', {
+                                    kyu: techniqueData.techniques[index].group,
+                                    techniqueId: techniqueData.techniques[index]._id
+                                });
+                                $scope.technique = {};
                             });
-                            $rootScope.loading = false;
-                            $scope.technique = {};
-                        });
+                    }
                 }
             }
         };

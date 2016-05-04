@@ -1,13 +1,15 @@
-<form class="form-signin" name="loginForm" ng-submit="login()">
+<form class="form-signin" name="loginForm" ng-submit="login(loginForm.$valid)" novalidate>
     <h2 class="form-signin-heading">Login</h2>
-    <div class="form-group">
+    <div class="form-group" ng-class="{'has-error':loginForm.inputEmail.$invalid && (loginForm.inputEmail.$touched || submitted) }">
         <label for="inputEmail" class="control-label">Email</label>
-        <input autocomplete="off" ng-model="loginUser.email" type="email" class="form-control" id="inputEmail" placeholder="Email address" required>
+        <input autocomplete="off" ng-model="loginUser.email" type="email" class="form-control" name="inputEmail" placeholder="Email address" required>
+        <p class="help-block" ng-show="loginForm.inputEmail.$invalid && (loginForm.inputEmail.$touched || submitted)">Enter a valid email</p>
     </div>
 
-    <div class="form-group">
+    <div class="form-group" ng-class="{'has-error':loginForm.inputPassword.$invalid && (loginForm.inputPassword.$touched || submitted) }">
         <label for="inputPassword" class="control-label">Password</label>
-        <input type="password" ng-model="loginUser.password" class="form-control" id="inputPassword" placeholder="Password" required>
+        <input type="password" ng-model="loginUser.password" class="form-control" name="inputPassword" placeholder="Password" required>
+        <p class="help-block" ng-show="loginForm.inputPassword.$invalid && (loginForm.inputPassword.$touched || submitted)">Your password is required</p>
     </div>
 
     <button type="submit" class="btn btn-lg btn-success btn-block">Login</button>

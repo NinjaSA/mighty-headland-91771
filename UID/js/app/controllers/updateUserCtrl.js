@@ -2,7 +2,9 @@ angular.module('ninjaApp')
     .controller('updateUserCtrl', ['$rootScope', '$scope', '$stateParams', '$state', 'alert', 'userData', 'auth', function($rootScope, $scope, $stateParams, $state, alert, userData, auth){
         var usrIndex;
 
+        $scope.isEditingUser = true;
         $scope.isAdmin = auth.currentUser.isAdmin;
+        $scope.isInstructor = auth.currentUser.isInstructor;
 
         for(usr in userData.users){
             if(userData.users[usr]._id == $stateParams.userId){
@@ -11,29 +13,33 @@ angular.module('ninjaApp')
             }
         }
 
-        $scope.updateUser = function(){
-            $rootScope.loading = true;
+        $scope.enabled = $scope.isAdmin
+                         || (auth.currentUser._id === $stateParams.userId)
+                         || ($scope.isInstructor && !$scope.user.isInstructor)
 
-            auth.updateUser($scope.user)
-                .then(
-                    function success(res){
-                        alert('success', res.data.firstName + ' has been updated!');
-                    },
-                    function error(res){
-                        alert('danger', 'Something went wrong!', 5000);
-                    })
-                .finally(function(){
-                    $state.go('users');
-                    $scope.user = {};
-                    $rootScope.loading = false;
-                });
+        $scope.isStudent = !$scope.isInstructor && !$scope.isAdmin;
+
+        $scope.updateUser = function(isValid){
+            $scope.submitted = true;
+
+            if(isValid){
+                auth.updateUser($scope.user)
+                    .then(
+                        function success(res){
+                            alert('success', res.data.firstName + ' has been updated!');
+                        },
+                        function error(res){
+                            alert('danger', 'Something went wrong!', 5000);
+                        })
+                    .finally(function(){
+                        $state.go('users');
+                        $scope.user = {};
+                    });
+            }
         };
 
         $scope.removeUser = function(){
             var firstName = $scope.user.firstName;
-
-            $rootScope.loading = true;
-            $scope.user.isActive = false;
 
             auth.removeUser($scope.user._id)
                 .then(function success(res){
@@ -47,7 +53,6 @@ angular.module('ninjaApp')
                 .finally(function(){
                     $state.go('users');
                     $scope.user = {};
-                    $rootScope.loading = false;
                 });
         }
 }]);

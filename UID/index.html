@@ -27,6 +27,7 @@
 
             <div class="collapse navbar-collapse" ng-class="{'collapse': !showNav}">
               <ul class="nav navbar-nav">
+                  <li ng-click="showNav=false"><a ui-sref="editUser({userId: currentUser._id })">My Details</a></li>
                   <li ng-click="showNav=false"><a ng-if="isInstructor" ui-sref="addUser">Add Ninja</a></li>
                   <li ng-click="showNav=false"><a ng-if="isInstructor" ui-sref="users">Ninjas</a></li>
                   <li ng-click="showNav=false"><a ng-if="isInstructor" ui-sref="addTechnique">Add a technique</a></li>
@@ -46,7 +47,7 @@
              <div class="alert alert-danger offline-alert" ng-show="isOffline">
                  <p>You are offline</p>
              </div>
-             <div class="loading" ng-show="loading"></div>
+             <div class="loading" ng-show="loading()"></div>
         </div>
 
         <script src="js/master.min.js"></script>

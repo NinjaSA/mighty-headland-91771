@@ -2,6 +2,7 @@ var User = require('mongoose').model('User');
 var Technique = require('mongoose').model('Technique');
 var jwt = require('jsonwebtoken');
 var config = require('./config/config');
+var _ = require('underscore');
 
 exports.loginUser = function(req, res){
     var query = { email: req.body.email };
@@ -43,7 +44,7 @@ exports.addUser = function(req, res){
     var newUser = new User();
     req.body.password = newUser.generateHash(req.body.password);
 
-    User.findOne({ email: req.body.email.toLowerCase() }, function(err, user){
+    User.findOne({ email: req.body.email }, function(err, user){
         if(user) {
             res.send({
                 hasUser: true,
@@ -64,15 +65,13 @@ exports.addUser = function(req, res){
 }
 
 exports.updateUser = function(req, res){
+    if(req.body.password){
+        var newUser = new User();
+        req.body.password = newUser.generateHash(req.body.password);
+    }
+
     User.findById(req.body._id, function(err, user){
-        user.firstName = req.body.firstName,
-        user.lastName = req.body.lastName,
-        user.email = req.body.email,
-        user.dojo = req.body.dojo,
-        user.isActive = req.body.isActive,
-        user.isAdmin = req.body.isAdmin,
-        user.isInstructor = req.body.isInstructor,
-        user.level = req.body.level,
+        _.extend(user, req.body);
 
         user.save(function(){
             res.send(user);
