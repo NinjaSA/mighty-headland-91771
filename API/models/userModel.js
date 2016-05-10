@@ -9,7 +9,8 @@ var userSchema = new mongoose.Schema({
     "dojo": String,
     "isAdmin": Boolean,
     "isInstructor": Boolean,
-    "level": String
+    "level": String,
+    "courses": [String]
 });
 
 userSchema.methods.generateHash = function(password){

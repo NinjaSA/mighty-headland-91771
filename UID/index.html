@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body ng-app="ninjaApp">
-        <nav class="navbar navbar-default" ng-controller="navbarCtrl" ng-show="isAuthenticated()">
+        <nav class="navbar navbar-default" ng-controller="navbarCtrl" ng-cloak ng-show="isAuthenticated()" >
           <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" ng-click="showNav=!showNav">
@@ -25,7 +25,7 @@
 
             </div>
 
-            <div class="collapse navbar-collapse" ng-class="{'collapse': !showNav}">
+            <div class="navbar navbar-collapse collapse" ng-class="{'collapse': !showNav}">
               <ul class="nav navbar-nav">
                   <li ng-click="showNav=false"><a ui-sref="editUser({userId: currentUser._id })">My Details</a></li>
                   <li ng-click="showNav=false"><a ng-if="isInstructor" ui-sref="addUser">Add Ninja</a></li>
