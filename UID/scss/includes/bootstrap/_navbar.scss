@@ -47,7 +47,7 @@
   @include clearfix;
   -webkit-overflow-scrolling: touch;
   position: absolute;
-  right: 15px;
+  right: 30px;
   width: 50%;
   z-index:9;
 
@@ -187,6 +187,7 @@
 .navbar-toggle {
   position: relative;
   float: right;
+  margin-right:15px;
   padding: 9px 10px;
   @include navbar-vertical-align(34px);
   background-color: transparent;

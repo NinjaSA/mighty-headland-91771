@@ -1,8 +1,10 @@
 angular.module('ninjaApp')
-    .controller('addUserCtrl', ['$rootScope', '$scope', '$http', '$state', 'alert', 'userData', 'auth', 'API_URL', function($rootScope, $scope, $http, $state, alert, userData, auth, API_URL){
+    .controller('addUserCtrl', ['$rootScope', '$scope', '$http', '$state', 'alert', 'userData', 'auth', 'API_URL', function($rootScope, $scope, $http, $state, alert, userData, auth, API_URL, coursesData){
         $scope.isAdmin = auth.currentUser.isAdmin;
 
         $scope.enabled = true;
+
+        //$scope.courses = ["Sai", "Kurki", "Archery", "Grappling" ];
 
         $scope.addUser = function(isValid){
             $scope.submitted = true;

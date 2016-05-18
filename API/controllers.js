@@ -95,10 +95,11 @@ exports.updateTechnique = function(req, res){
     Technique.findById(req.body._id, function(err, technique){
         technique.name = req.body.name;
         technique.description = req.body.description;
-        technique.videoUrl = req.body.videoUrl;
         technique.group = req.body.group;
         technique.category = req.body.category;
         technique.uploadedBy = req.body.uploadedBy;
+
+        if(req.body.videoUrl) technique.videoUrl = req.body.videoUrl;
 
         technique.save(function(){
             res.send(technique);
