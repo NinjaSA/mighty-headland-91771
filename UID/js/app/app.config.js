@@ -64,6 +64,9 @@
             $urlRouterProvider.otherwise('/');
 
             $httpProvider.interceptors.push('authInterceptor');
+
+            $httpProvider.defaults.useXDomain = true;
+            delete $httpProvider.defaults.headers.common['X-Requested-With'];
     }])
     .run(['$rootScope', '$http', '$state', 'authToken', function($rootScope, $http, $state, authToken)  {
         authToken.removeToken();
