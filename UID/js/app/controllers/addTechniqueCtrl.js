@@ -25,7 +25,7 @@ angular.module('ninjaApp')
                 name: $scope.technique.name || '',
                 description: $scope.technique.description || '',
             }
-$scope.uploading = true
+            $scope.uploading = true
             $scope.$apply();
 
             techniques.uploadVideo(video, function(videoId){

@@ -9,7 +9,7 @@ app.use(function(req, res, next){
     res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PATCH, PUT, DELETE');
     res.header("Access-Control-Allow-Headers", "Content-Type, X-Requested-With, Authorization, Accept");
     res.header('Access-Control-Allow-Credentials', true);
-console.log('**********   CORS 1    S************')
+    
     next();
 });
 

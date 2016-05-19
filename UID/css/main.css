@@ -3486,7 +3486,7 @@ tbody.collapse.in {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   border: 1px solid transparent; }
   .navbar:before, .navbar:after {
     content: " ";
@@ -3599,9 +3599,10 @@ tbody.collapse.in {
   position: relative;
   float: right;
   margin-right: 15px;
-  padding: 9px 10px;
-  margin-top: 8px;
+  padding: 5px 15px;
+  margin-top: 10px;
   margin-bottom: 8px;
+  box-shadow: 0 0 10px #333 inset;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -5339,7 +5340,7 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
   margin: 30px 0; }
 
 .container {
-  padding: 0 15px 30px;
+  padding: 0 2% 30px;
   max-width: 480px; }
 
 .container-fluid {
