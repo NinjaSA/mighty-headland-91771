@@ -17,4 +17,7 @@ angular.module('ninjaApp')
             { "title": "2nd-kyu", "description": "Nunchaku and Belt Work (Chain)" },
             { "title": "1st-kyu", "description": "Single Arm fighting and Ninjato (Katas)" }
         ]
+    })
+    .service('coursesData', function(){
+        this.courses = ["sai", "kurki", "archery", "grappling" ];
     });

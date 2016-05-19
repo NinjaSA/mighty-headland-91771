@@ -7,9 +7,12 @@ angular.module('ninjaApp')
             $scope.currentUser = auth.currentUser;
         });
 
+
         $document.on('click', function(e){
-            $scope.showNav = angular.element(e.target).hasClass('navbar-toggle')
-            $scope.$apply();
+            if(!angular.element(e.target).hasClass('navbar-toggle')){
+                $scope.showNav = false;
+                $scope.$apply();
+            }
         });
 
         $scope.logout = function(){

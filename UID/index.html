@@ -15,22 +15,22 @@
         <nav class="navbar navbar-default" ng-controller="navbarCtrl" ng-cloak ng-show="isAuthenticated()" >
           <div class="container-fluid">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" ng-click="showNav=true">
+              <button type="button" class="navbar-toggle collapsed" ng-click="showNav=!showNav">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" ng-click="showNav=false" ui-sref="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+              <a class="navbar-brand" ui-sref="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
 
             </div>
 
             <div class="navbar navbar-collapse collapse" ng-class="{'collapse': !showNav}">
               <ul class="nav navbar-nav">
-                  <li ng-click="showNav=false"><a ui-sref="editUser({userId: currentUser._id })">My Details</a></li>
-                  <li ng-click="showNav=false"><a ng-if="isInstructor" ui-sref="addUser">Add Ninja</a></li>
-                  <li ng-click="showNav=false"><a ng-if="isInstructor" ui-sref="users">Ninjas</a></li>
-                  <li ng-click="showNav=false"><a ng-if="isInstructor" ui-sref="addTechnique">Add a technique</a></li>
+                  <li><a ui-sref="editUser({userId: currentUser._id })">My Details</a></li>
+                  <li><a ng-if="isInstructor" ui-sref="addUser">Add Ninja</a></li>
+                  <li><a ng-if="isInstructor" ui-sref="users">Ninjas</a></li>
+                  <li><a ng-if="isInstructor" ui-sref="addTechnique">Add a technique</a></li>
                   <li><a ng-click="logout()">Logout</a></li>
               </ul>
             </div>

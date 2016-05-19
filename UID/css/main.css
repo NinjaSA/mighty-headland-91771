@@ -5289,7 +5289,16 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
 .syllabus {
   margin: auto; }
   .syllabus .list-group-item {
-    margin-bottom: 5px; }
+    margin-bottom: 3px;
+    text-transform: capitalize; }
+  .syllabus h3 {
+    padding-left: 5px; }
+  .syllabus .courses a.list-group-item {
+    margin-bottom: -1px; }
+  .syllabus .courses h4 {
+    margin-bottom: 0; }
+  .syllabus .courses .glyphicon {
+    margin-top: -25px; }
   .syllabus .list-group-item-text {
     overflow: hidden;
     white-space: nowrap;
@@ -5338,7 +5347,8 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
   position: relative; }
 
 h1 {
-  margin-top: 0; }
+  margin-top: 0;
+  text-transform: capitalize; }
 
 h1.heading {
   font-size: 28px;
