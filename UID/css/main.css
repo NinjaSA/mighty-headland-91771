@@ -5417,8 +5417,11 @@ h1.heading {
 .button-group {
   margin: 0 0 30px; }
 
+.techniquesList {
+  padding-top: 20px; }
+
 .search .col-lg-12 {
-  padding: 20px 0; }
+  padding: 20px 0 0; }
   .search .col-lg-12 .glyphicon {
     margin-left: -100px;
     float: right;

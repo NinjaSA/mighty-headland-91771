@@ -4,19 +4,21 @@
 
 <h1>{{ label.replace('-', ' ') }}</h1>
 
-<div class="form-group search" ng-show="techniques.length >= 8">
+<div class="form-group search" ng-show="listItems.length >= 5">
   <div class="col-lg-12">
     <input type="search" ng-model="search" class="form-control" id="inputName" placeholder="Start typing the name of the techinque">
     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
   </div>
 </div>
 
- <div ng-repeat="cat in techniques | filter: {group: label} | groupBy: 'category'">
-    <h4 ng-show="items.length > 0">{{ cat }}</h4>
-    <div class="list-group">
-        <a ng-repeat="t in items = (techniques | filter:search | filter:{category: cat } | orderBy: 'name')" ng-if="t.group == label" ui-sref="techniqueDetail({ kyu: '{{ label }}', techniqueId: '{{t._id}}'})" class="list-group-item">
-            {{ t.name }} <span ng-if="t.videoUrl || t.description" class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-        </a>
+<div class="techniquesList">
+    <div ng-repeat="cat in cats = (techniques | filter: {group: label} | groupBy: 'category')">
+        <h4 ng-show="items.length > 0">{{ cat }}</h4>
+        <div class="list-group">
+            <a ng-repeat="t in items = (techniques | filter:search | filter:{category: cat } | orderBy: 'name')" ng-if="t.group == label" ui-sref="techniqueDetail({ kyu: '{{ label }}', techniqueId: '{{t._id}}'})" class="list-group-item">
+                {{ t.name }} <span ng-if="t.videoUrl || t.description" class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+            </a>
+        </div>
     </div>
 </div>
-<p ng-show="techniques.length == 0">There are currently no techniques in {{ label.replace('-', ' ') }}</p>
+<p ng-show="listItems.length == 0">There are currently no techniques in {{ label.replace('-', ' ') }}</p>
