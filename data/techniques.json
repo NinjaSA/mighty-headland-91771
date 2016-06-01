@@ -1,0 +1,461 @@
+{"_id":{"$oid":"56fb65b636892f0300109b82"},"name":"Back roll","group":"9th-kyu","category":"Rolls","__v":0,"videoUrl":"https://player.vimeo.com/video/167130342"}
+{"_id":{"$oid":"56fb65c636892f0300109b83"},"name":"Forward roll","group":"9th-kyu","category":"Rolls","__v":0,"description":"Detail about this technique","videoUrl":"https://player.vimeo.com/video/166051856"}
+{"_id":{"$oid":"56fcc1df10af05030082e005"},"name":"Side roll","group":"9th-kyu","category":"Rolls","__v":0}
+{"_id":{"$oid":"56fcc20710af05030082e006"},"name":"Dive roll","group":"9th-kyu","category":"Rolls","__v":0}
+{"_id":{"$oid":"56fcc23410af05030082e007"},"name":"Break-fall roll","group":"9th-kyu","category":"Rolls","__v":0,"description":"Roll and break fall"}
+{"_id":{"$oid":"574460ed85abce0300944231"},"name":"Earth Stance","group":"9th-kyu","category":"Elements","description":"Solid, Strong, Stance","__v":0}
+{"_id":{"$oid":"5744610485abce0300944232"},"name":"Void","description":"Creating Space","category":"Elements","group":"9th-kyu","__v":0}
+{"_id":{"$oid":"5744612b85abce0300944233"},"name":"Wind","group":"9th-kyu","category":"Elements","description":"11 and 1 O’clock Evasion moving forward","__v":0}
+{"_id":{"$oid":"5744613e85abce0300944234"},"name":"Water","group":"9th-kyu","category":"Elements","description":"5 and 7 O’ clock Evasion moving backward","__v":0}
+{"_id":{"$oid":"5744615285abce0300944235"},"name":"Fire","group":"9th-kyu","category":"Elements","description":"12 O’clock Moving forward and attacking","__v":0}
+{"_id":{"$oid":"5744617385abce0300944236"},"name":"Natural Stance","group":"9th-kyu","category":"Stances","description":"High Horse","__v":0}
+{"_id":{"$oid":"5744618f85abce0300944237"},"name":"Natural Stance with body defence","group":"9th-kyu","category":"Stances","__v":0}
+{"_id":{"$oid":"574461c485abce0300944238"},"name":"Right body defence","group":"9th-kyu","category":"Stances","description":"Attacker from right","__v":0}
+{"_id":{"$oid":"574461da85abce0300944239"},"name":"Left body defence","group":"9th-kyu","category":"Stances","description":"Attacker from left","__v":0}
+{"_id":{"$oid":"574461f885abce030094423a"},"name":"Front right body defence","group":"9th-kyu","category":"Stances","description":"Fighting Stance South paw","__v":0}
+{"_id":{"$oid":"5744621085abce030094423b"},"name":"Front left body defence","group":"9th-kyu","category":"Stances","description":"Fighting stance Orthodox","__v":0}
+{"_id":{"$oid":"5744623985abce030094423c"},"name":"Stepping back into left body defence - F","group":"9th-kyu","description":"Attacker from the front","category":"Stances","__v":0}
+{"_id":{"$oid":"5744626585abce030094423d"},"name":"Stepping back into right body defence - F","group":"9th-kyu","category":"Stances","description":"Attacker from the front","__v":0}
+{"_id":{"$oid":"5744632085abce030094423e"},"name":"Stepping back into left body defence - B","group":"9th-kyu","category":"Stances","description":"Attacker from behind","__v":0}
+{"_id":{"$oid":"5744634785abce030094423f"},"name":"Stepping back into right body defence - B","group":"9th-kyu","category":"Stances","description":"Attacker from behind","__v":0}
+{"_id":{"$oid":"5744636285abce0300944240"},"name":"Horse Stance","group":"9th-kyu","category":"Stances","description":"Low horse","__v":0}
+{"_id":{"$oid":"574463cf85abce0300944242"},"name":"Parries","group":"9th-kyu","category":"Deflections - Straight Punches","description":"Inside and outside","__v":0}
+{"_id":{"$oid":"574463e885abce0300944243"},"name":"Slipping","group":"9th-kyu","category":"Deflections - Straight Punches","description":"Angling out with all elements and angles","__v":0}
+{"_id":{"$oid":"5744640e85abce0300944244"},"name":"Leg Parries","group":"9th-kyu","category":"Deflections - Linear Kicks","description":"Front leg parries only (Inside/ Outside)","__v":0}
+{"_id":{"$oid":"5744642e85abce0300944245"},"name":"Shin deflection - Low","group":"9th-kyu","category":"Deflections - Roundhouse Kicks","description":"Deflecting low roundhouse kick","__v":0}
+{"_id":{"$oid":"5744649685abce0300944246"},"name":"Shin/ Elbow Deflection - Mid","group":"9th-kyu","category":"Deflections - Roundhouse Kicks","description":"Deflecting mid roundhouse kick","__v":0}
+{"_id":{"$oid":"574464be85abce0300944247"},"name":"Elbow Deflection - High","group":"9th-kyu","category":"Deflections - Roundhouse Kicks","description":"Deflecting high roundhouse kick","__v":0}
+{"_id":{"$oid":"5744650a85abce0300944248"},"name":"Cupping","group":"9th-kyu","category":"Deflections - Straight Punches","__v":0}
+{"_id":{"$oid":"574465f785abce0300944249"},"name":"Mantis","__v":0}
+{"_id":{"$oid":"5744663585abce030094424a"},"name":"Mantis - One Handed","group":"9th-kyu","category":"Deflections - Straight Punches","description":"One handed, outer hand always latches (Inside/Outside)","__v":0}
+{"_id":{"$oid":"5744666785abce030094424b"},"name":"Scooping","group":"9th-kyu","category":"Deflections - Straight Punches","description":"Inside and outside","__v":0}
+{"_id":{"$oid":"5744668085abce030094424c"},"name":"50/50 Deflection","group":"9th-kyu","category":"Deflections - Straight Punches","description":"Outside only","__v":0}
+{"_id":{"$oid":"5744668d85abce030094424d"},"name":"Mirror deflection","group":"9th-kyu","category":"Deflections - Straight Punches","__v":0}
+{"_id":{"$oid":"574466d185abce030094424e"},"name":"Inner forearm to the inside","group":"9th-kyu","category":"Deflections - Low deflections","__v":0}
+{"_id":{"$oid":"574466df85abce030094424f"},"name":"Inner forearm to the outside","group":"9th-kyu","category":"Deflections - Low deflections","__v":0}
+{"_id":{"$oid":"574466ec85abce0300944250"},"name":"Outer forearm to the inside","group":"9th-kyu","category":"Deflections - Low deflections","__v":0}
+{"_id":{"$oid":"574466fe85abce0300944251"},"name":"Outer forearm to the outside","group":"9th-kyu","category":"Deflections - Low deflections","__v":0}
+{"_id":{"$oid":"5744673c85abce0300944252"},"name":"Chicken Wing","group":"9th-kyu","category":"Deflections - Close range deflections","description":"From round house/ hook punch\nInside/ Outside/ Backhand","__v":0}
+{"_id":{"$oid":"574467ad85abce0300944253"},"name":"Wind/ Water","__v":0}
+{"_id":{"$oid":"5744692c85abce0300944254"},"name":"Duck `n dive","__v":0}
+{"_id":{"$oid":"57446b5685abce0300944255"},"name":"Forearm scoop - U","group":"9th-kyu","category":"Deflections - Close range deflections","description":"From upper cut\nInside/ Outside","__v":0}
+{"_id":{"$oid":"57446b8785abce0300944256"},"name":"Elbow Parry","group":"9th-kyu","category":"Deflections - Close range deflections","description":"From upper cut\nVery close","__v":0}
+{"_id":{"$oid":"57446bc585abce0300944257"},"name":"Clinch block","group":"9th-kyu","category":"Deflections - Close range deflections","description":"From knee clinch\nDefensive technique","__v":0}
+{"_id":{"$oid":"57446be785abce0300944258"},"name":"Forearm scoop - K","group":"9th-kyu","category":"Deflections - Close range deflections","description":"From knee strike\nInside/ outside","__v":0}
+{"_id":{"$oid":"57446c1685abce0300944259"},"name":"Top Mount","group":"9th-kyu","category":"Basic Grappling - Top positions","description":"Top position\nFull mount","__v":0}
+{"_id":{"$oid":"57446c3585abce030094425a"},"name":"Side Mount","group":"9th-kyu","category":"Basic Grappling - Top positions","description":"","__v":0}
+{"_id":{"$oid":"57446ce785abce030094425b"},"name":"Crazy Monkey","group":"9th-kyu","category":"Deflections - Close range deflections","description":"From Round house/ hook punch","__v":0}
+{"_id":{"$oid":"57446d3a85abce030094425c"},"name":"Kesa Ketame","group":"9th-kyu","category":"Basic Grappling - Top positions","__v":0}
+{"_id":{"$oid":"57446d6485abce030094425d"},"name":"Closed Guard","group":"9th-kyu","category":"Basic grappling - Underneath positions","__v":0}
+{"_id":{"$oid":"57446d8085abce030094425e"},"name":"Open Guard","group":"9th-kyu","category":"Basic grappling - Underneath positions","__v":0}
+{"_id":{"$oid":"57446d8e85abce030094425f"},"name":"Butterfly Guard","group":"9th-kyu","category":"Basic grappling - Underneath positions","__v":0}
+{"_id":{"$oid":"57446da185abce0300944260"},"name":"Half Guard (with lockdown)","group":"9th-kyu","category":"Basic grappling - Underneath positions","__v":0}
+{"_id":{"$oid":"57446dc085abce0300944261"},"name":"Bridge","group":"9th-kyu","category":"Basic grappling - Movement","__v":0}
+{"_id":{"$oid":"57446dc885abce0300944262"},"name":"Shrimp","group":"9th-kyu","category":"Basic grappling - Movement","__v":0}
+{"_id":{"$oid":"57446dd285abce0300944263"},"name":"Posture","group":"9th-kyu","category":"Basic grappling - Movement","__v":0}
+{"_id":{"$oid":"57446ddb85abce0300944264"},"name":"Swivel","group":"9th-kyu","category":"Basic grappling - Movement","__v":0}
+{"_id":{"$oid":"574824edf29e8a0300cbb3d6"},"name":"Chicken Wing to Guillotine (Inside)","group":"9th-kyu","category":"Flow Techniques - Deflections","__v":0}
+{"_id":{"$oid":"57482507f29e8a0300cbb3d7"},"name":"Chicken wing to reverse guillotine (outside)","group":"9th-kyu","category":"Flow Techniques - Deflections","__v":0}
+{"_id":{"$oid":"574825cdf29e8a0300cbb3d8"},"name":"Duck 'n Dive to chinese death lock/ arm immobilization","group":"9th-kyu","category":"Flow Techniques - Deflections","__v":0}
+{"_id":{"$oid":"57482602f29e8a0300cbb3d9"},"name":"50/ 50 to standing arm triangle","group":"9th-kyu","category":"Flow Techniques - Deflections","__v":0}
+{"_id":{"$oid":"5748261bf29e8a0300cbb3da"},"name":"Deflect mantis inside and scoop to outside (repeat)","group":"9th-kyu","category":"Flow Techniques - Deflections","__v":0}
+{"_id":{"$oid":"57482652f29e8a0300cbb3db"},"name":"Transition drill 1","__v":0}
+{"_id":{"$oid":"57482682f29e8a0300cbb3dc"},"name":"Transition drill 2","group":"9th-kyu","category":"Flow Techniques - Grappling","description":"Start Position – Underneath side mount\nMovement 1 – To Guard\nMovement 2 – Underneath side mount other side","__v":0}
+{"_id":{"$oid":"574826b4f29e8a0300cbb3dd"},"name":"Swivel drill 1","group":"9th-kyu","category":"Flow Techniques - Grappling","description":"Start Position – Guard\nSwivel Left – Uke Punches with right hand\nSwivel Right – Opponent punches with left hand","__v":0}
+{"_id":{"$oid":"574826caf29e8a0300cbb3de"},"name":"Swivel drill 2","group":"9th-kyu","category":"Flow Techniques - Grappling","description":"Start Position – Guard\nMovement 1 – Swivel to arm bar left arm\nMovement 2 – Swivel to arm bar right arm","__v":0}
+{"_id":{"$oid":"57482849f29e8a0300cbb3df"},"name":"Forward palm heel","__v":0}
+{"_id":{"$oid":"57482855f29e8a0300cbb3e0"},"name":"Downward palm heel","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"57482863f29e8a0300cbb3e1"},"name":"Downward reverse palm heel","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"5748286ff29e8a0300cbb3e2"},"name":"Side/ outer palm heel","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"5748287df29e8a0300cbb3e3"},"name":"Reverse/ inner palm heel","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"5748288ff29e8a0300cbb3e4"},"name":"Double palm heel x4","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"574828a2f29e8a0300cbb3e5"},"name":"Ridge hand palm up \u0026 down","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"574828b3f29e8a0300cbb3e6"},"name":"Knife edge palm up \u0026 down","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"574828caf29e8a0300cbb3e7"},"name":"Hammer head (vertical, horizontal, reverse)","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"57482939f29e8a0300cbb3e8"},"name":"Hammer head back fist (both directions)","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"57482942f29e8a0300cbb3e9"},"name":"Jab","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"5748294af29e8a0300cbb3ea"},"name":"Cross","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"57482952f29e8a0300cbb3eb"},"name":"Hook","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"5748295bf29e8a0300cbb3ec"},"name":"Uppercut","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"57482966f29e8a0300cbb3ed"},"name":"Head butt","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"57482975f29e8a0300cbb3ee"},"name":"Eagle Claw","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"57482985f29e8a0300cbb3ef"},"name":"Eye gouge, knuckle and thumb","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"5748298ef29e8a0300cbb3f0"},"name":"V-strike","group":"8th-kyu","category":"Hand Strikes","__v":0}
+{"_id":{"$oid":"574829fcf29e8a0300cbb3f1"},"name":"Foward Horizontal","group":"8th-kyu","category":"Elbow Strikes","__v":0}
+{"_id":{"$oid":"57482a0df29e8a0300cbb3f2"},"name":"Reverse horizontal/ double","group":"8th-kyu","category":"Elbow Strikes","__v":0}
+{"_id":{"$oid":"57482a1bf29e8a0300cbb3f3"},"name":"Downward vertical","group":"8th-kyu","category":"Elbow Strikes","__v":0}
+{"_id":{"$oid":"57482a2af29e8a0300cbb3f4"},"name":"Reverse downward vertical","group":"8th-kyu","category":"Elbow Strikes","__v":0}
+{"_id":{"$oid":"57482a3bf29e8a0300cbb3f5"},"name":"Upward vertical","group":"8th-kyu","category":"Elbow Strikes","__v":0}
+{"_id":{"$oid":"57482a49f29e8a0300cbb3f6"},"name":"Reverse upward vertical","group":"8th-kyu","category":"Elbow Strikes","__v":0}
+{"_id":{"$oid":"57482a51f29e8a0300cbb3f7"},"name":"Bar arm","group":"8th-kyu","category":"Elbow Strikes","__v":0}
+{"_id":{"$oid":"57482a5bf29e8a0300cbb3f8"},"name":"Forearm strike","group":"8th-kyu","category":"Elbow Strikes","__v":0}
+{"_id":{"$oid":"57482abef29e8a0300cbb3f9"},"name":"Bridge Kick","group":"8th-kyu","category":"Kicks","description":"(Must do orthodox and south paw - leading and back leg)","__v":0}
+{"_id":{"$oid":"57482ad2f29e8a0300cbb3fa"},"name":"Round house - mid and low","group":"8th-kyu","category":"Kicks","description":"(Must do orthodox and south paw - leading and back leg)","__v":0}
+{"_id":{"$oid":"57482ae1f29e8a0300cbb3fb"},"name":"Reverse round house","group":"8th-kyu","category":"Kicks","description":"(Must do orthodox and south paw - leading and back leg)","__v":0}
+{"_id":{"$oid":"57482af3f29e8a0300cbb3fc"},"name":"Maegeri - mid and low","group":"8th-kyu","category":"Kicks","description":"(Must do orthodox and south paw - leading and back leg)","__v":0}
+{"_id":{"$oid":"57482b02f29e8a0300cbb3fd"},"name":"Teep kick","group":"8th-kyu","category":"Kicks","description":"(Must do orthodox and south paw - leading and back leg)","__v":0}
+{"_id":{"$oid":"57482b1cf29e8a0300cbb3fe"},"name":"Front thrust","group":"8th-kyu","category":"Kicks","description":"(Must do orthodox and south paw)","__v":0}
+{"_id":{"$oid":"57482b3df29e8a0300cbb400"},"name":"Side thrust x3","group":"8th-kyu","category":"Kicks","description":"(Must do orthodox and south paw)","__v":0}
+{"_id":{"$oid":"57482b4af29e8a0300cbb401"},"name":"Back kick","group":"8th-kyu","category":"Kicks","description":"(Must do orthodox and south paw)","__v":0}
+{"_id":{"$oid":"57482b58f29e8a0300cbb402"},"name":"Axe kick (inner/ outer)","group":"8th-kyu","category":"Kicks","description":"(Must do orthodox and south paw)","__v":0}
+{"_id":{"$oid":"57482b90f29e8a0300cbb403"},"name":"Round house/ horizontal","group":"8th-kyu","category":"Knees","__v":0}
+{"_id":{"$oid":"57482b9cf29e8a0300cbb404"},"name":"Thrust knee","group":"8th-kyu","category":"Knees","__v":0}
+{"_id":{"$oid":"57482ba6f29e8a0300cbb405"},"name":"Clinch knee","group":"8th-kyu","category":"Knees","__v":0}
+{"_id":{"$oid":"57482bccf29e8a0300cbb406"},"name":"Combo 1","group":"8th-kyu","category":"Flow training - strikes","description":"Slip, left hook (temple), right cross (nose)","__v":0}
+{"_id":{"$oid":"57482be6f29e8a0300cbb407"},"name":"Combo 2","group":"8th-kyu","category":"Flow training - strikes","description":"Slip, ridge hand palm down (nose), knife edge palm up (throat)","__v":0}
+{"_id":{"$oid":"57482c16f29e8a0300cbb408"},"name":"Combo 3","group":"8th-kyu","category":"Flow training - strikes","description":"Jab (Face), Cross (Face), Step off line, kick inner thigh","__v":0}
+{"_id":{"$oid":"57482c2ff29e8a0300cbb409"},"name":"Combo 4","group":"8th-kyu","category":"Flow training - strikes","description":"Slip, leading elbow (Face), Bar arm (Face)","__v":0}
+{"_id":{"$oid":"57482c68f29e8a0300cbb40a"},"name":"Trap and roll from strangulation","__v":0}
+{"_id":{"$oid":"57482c76f29e8a0300cbb40b"},"name":"Trap and roll from punches","group":"8th-kyu","category":"Basic grappling - escapes from mount","__v":0}
+{"_id":{"$oid":"57482c85f29e8a0300cbb40c"},"name":"Leg sweep (must be in guard)","group":"8th-kyu","category":"Basic grappling - escapes from mount","__v":0}
+{"_id":{"$oid":"57482cb3f29e8a0300cbb40d"},"name":"Bridge and flip","group":"8th-kyu","category":"Basic grappling - escapes from side mount","__v":0}
+{"_id":{"$oid":"57482cbdf29e8a0300cbb40e"},"name":"Transition to guard","group":"8th-kyu","category":"Basic grappling - escapes from side mount","__v":0}
+{"_id":{"$oid":"57482cd8f29e8a0300cbb40f"},"name":"Head maipulation escape","group":"8th-kyu","category":"Basic grappling - escapes from kesa katame","__v":0}
+{"_id":{"$oid":"57482ce6f29e8a0300cbb410"},"name":"Hips under escape (to rear mount)","group":"8th-kyu","category":"Basic grappling - escapes from kesa katame","__v":0}
+{"_id":{"$oid":"57482cfbf29e8a0300cbb411"},"name":"Elbows to pressure points","group":"8th-kyu","category":"Basic grappling - escapes from guard","__v":0}
+{"_id":{"$oid":"57482d09f29e8a0300cbb412"},"name":"Knee to coccyx","group":"8th-kyu","category":"Basic grappling - escapes from guard","__v":0}
+{"_id":{"$oid":"57482d13f29e8a0300cbb413"},"name":"Windmill to side mount","group":"8th-kyu","category":"Basic grappling - escapes from guard","__v":0}
+{"_id":{"$oid":"57482d28f29e8a0300cbb414"},"name":"Barrel roll","group":"8th-kyu","category":"Basic grappling - escapes from guard","description":"(Aka crocodile flip)","__v":0}
+{"_id":{"$oid":"57482d46f29e8a0300cbb415"},"name":"Straight arm bar from side mount","group":"8th-kyu","category":"Basic grappling - Submissions","__v":0}
+{"_id":{"$oid":"57482d56f29e8a0300cbb416"},"name":"Paintbrush from side mount (americana)","group":"8th-kyu","category":"Basic grappling - Submissions","__v":0}
+{"_id":{"$oid":"57482d61f29e8a0300cbb417"},"name":"Triangle choke from guard","group":"8th-kyu","category":"Basic grappling - Submissions","__v":0}
+{"_id":{"$oid":"57482d70f29e8a0300cbb418"},"name":"Chinese death lock rear mount","group":"8th-kyu","category":"Basic grappling - Submissions","__v":0}
+{"_id":{"$oid":"57482d82f29e8a0300cbb419"},"name":"Arm triangle guard/ mount/ kesa katame","group":"8th-kyu","category":"Basic grappling - Submissions","__v":0}
+{"_id":{"$oid":"57482d8cf29e8a0300cbb41a"},"name":"Guillotine from guard","group":"8th-kyu","category":"Basic grappling - Submissions","__v":0}
+{"_id":{"$oid":"57482d96f29e8a0300cbb41b"},"name":"Hammer lock from guard","group":"8th-kyu","category":"Basic grappling - Submissions","__v":0}
+{"_id":{"$oid":"57482df8f29e8a0300cbb41c"},"name":"Back leg drop - inside","group":"7th-kyu","category":"Take downs","description":"Arm bar style (Include Chicken wing latch)","__v":0}
+{"_id":{"$oid":"57482e13f29e8a0300cbb41d"},"name":"Back leg drop - outside","group":"7th-kyu","category":"Take downs","description":"Kick out either leg (Include Chicken wing latch)","__v":0}
+{"_id":{"$oid":"574830adf29e8a0300cbb41e"},"name":"Front leg drop","group":"7th-kyu","category":"Take downs","description":"(Include chicken wing latch)","__v":0}
+{"_id":{"$oid":"574830c0f29e8a0300cbb41f"},"name":"Hog trip - TH","group":"7th-kyu","category":"Take downs","description":"Toe Heel (Include Chicken wing latch)","__v":0}
+{"_id":{"$oid":"574830dcf29e8a0300cbb420"},"name":"Hog trip - CC","group":"7th-kyu","category":"Take downs","description":"Calf on Calf (Include Chicken wing latch)","__v":0}
+{"_id":{"$oid":"57483103f29e8a0300cbb421"},"name":"Leg scoop","group":"7th-kyu","category":"Take downs","description":"(Inside/Outside) \n(Include Chicken wing latch)","__v":0}
+{"_id":{"$oid":"57483116f29e8a0300cbb422"},"name":"Neck Twist Clock Wise","group":"7th-kyu","category":"Take downs","description":"(Include Chicken wing latch)","__v":0}
+{"_id":{"$oid":"5748312df29e8a0300cbb423"},"name":"Neck Twist Anti-Clockwise","group":"7th-kyu","category":"Take downs","description":"(Include Chicken wing latch)","__v":0}
+{"_id":{"$oid":"57483139f29e8a0300cbb424"},"name":"Neck twist Over Shoulder","group":"7th-kyu","category":"Take downs","__v":0}
+{"_id":{"$oid":"57483279f29e8a0300cbb425"},"name":"Hair latch","group":"7th-kyu","category":"Take downs","description":"3 types","__v":0}
+{"_id":{"$oid":"5748329cf29e8a0300cbb426"},"name":"Clavicle lock takedown","group":"7th-kyu","category":"Take downs","description":"(Inner \u0026 Outer Shoulder)","__v":0}
+{"_id":{"$oid":"574832c8f29e8a0300cbb427"},"name":"Straight arm lock takedown","group":"7th-kyu","category":"Take downs","__v":0}
+{"_id":{"$oid":"57483306f29e8a0300cbb428"},"name":"Inner thigh reaping throw (uchi mata)","group":"7th-kyu","category":"Throws","__v":0}
+{"_id":{"$oid":"57483314f29e8a0300cbb429"},"name":"Circular sitting throw","group":"7th-kyu","category":"Throws","__v":0}
+{"_id":{"$oid":"57483328f29e8a0300cbb42a"},"name":"Body drop (tai otoshi)","group":"7th-kyu","category":"Throws","__v":0}
+{"_id":{"$oid":"57483355f29e8a0300cbb42b"},"name":"Hip throw - (ogoshi)","group":"7th-kyu","category":"Throws","description":"(Inner/ Outer)","__v":0}
+{"_id":{"$oid":"57483376f29e8a0300cbb42c"},"name":"Guillotine hog trip","group":"7th-kyu","category":"Throws","__v":0}
+{"_id":{"$oid":"5748338bf29e8a0300cbb42d"},"name":"Shoulder throw","group":"7th-kyu","category":"Throws","description":"(Down onto knee or duck feet)","__v":0}
+{"_id":{"$oid":"5748339af29e8a0300cbb42e"},"name":"Head throw","group":"7th-kyu","category":"Throws","description":"(Inside only)","__v":0}
+{"_id":{"$oid":"574833b5f29e8a0300cbb42f"},"name":"Hammer lock","group":"7th-kyu","category":"Immobilizations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"57483419f29e8a0300cbb430"},"name":"Neck lock","group":"7th-kyu","category":"Immobilizations","description":"(Guillotine/ reverse guillotine/ Chinese death lock)","__v":0}
+{"_id":{"$oid":"57483429f29e8a0300cbb431"},"name":"Straight arm lock - Inside","group":"7th-kyu","category":"Immobilizations","description":"(Inside)","__v":0}
+{"_id":{"$oid":"57483445f29e8a0300cbb432"},"name":"Straight arm lock - Outside","group":"7th-kyu","category":"Immobilizations","description":"(Outside/ bar arm)","__v":0}
+{"_id":{"$oid":"57483467f29e8a0300cbb433"},"name":"Figure 4","group":"7th-kyu","category":"Immobilizations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"57483478f29e8a0300cbb434"},"name":"Swan lock","group":"7th-kyu","category":"Immobilizations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574834a2f29e8a0300cbb435"},"name":"V of neck - (Single handed)","group":"7th-kyu","category":"Basic Nerve Centres","__v":0}
+{"_id":{"$oid":"574834aff29e8a0300cbb436"},"name":"V of neck (Double handed)","group":"7th-kyu","category":"Basic Nerve Centres","__v":0}
+{"_id":{"$oid":"574834baf29e8a0300cbb437"},"name":"Below adams apple","group":"7th-kyu","category":"Basic Nerve Centres","__v":0}
+{"_id":{"$oid":"574834c9f29e8a0300cbb438"},"name":"Trachea","group":"7th-kyu","category":"Basic Nerve Centres","__v":0}
+{"_id":{"$oid":"574834d1f29e8a0300cbb439"},"name":"Cheek bone","group":"7th-kyu","category":"Basic Nerve Centres","__v":0}
+{"_id":{"$oid":"574834daf29e8a0300cbb43a"},"name":"Just above chin","group":"7th-kyu","category":"Basic Nerve Centres","__v":0}
+{"_id":{"$oid":"574834e2f29e8a0300cbb43b"},"name":"Behind ear","group":"7th-kyu","category":"Basic Nerve Centres","__v":0}
+{"_id":{"$oid":"574834eaf29e8a0300cbb43c"},"name":"Under jaw","group":"7th-kyu","category":"Basic Nerve Centres","__v":0}
+{"_id":{"$oid":"57483516f29e8a0300cbb43d"},"name":"Up onto feet from stomach","group":"6th-kyu","category":"Ground work","__v":0}
+{"_id":{"$oid":"57483528f29e8a0300cbb43e"},"name":"Up onto feet from back","group":"6th-kyu","category":"Ground work","__v":0}
+{"_id":{"$oid":"57483538f29e8a0300cbb43f"},"name":"Up onto feet from sitting forwards","group":"6th-kyu","category":"Ground work","__v":0}
+{"_id":{"$oid":"57483544f29e8a0300cbb440"},"name":"Up onto feet from sitting backwards","group":"6th-kyu","category":"Ground work","__v":0}
+{"_id":{"$oid":"57483558f29e8a0300cbb441"},"name":"Multiple attackers on ground kicks","group":"6th-kyu","category":"Ground work","__v":0}
+{"_id":{"$oid":"57483567f29e8a0300cbb442"},"name":"Multiple attackers scorpian defence position","group":"6th-kyu","category":"Ground work","__v":0}
+{"_id":{"$oid":"5748359ef29e8a0300cbb443"},"name":"Fingers to eyes/ neck","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Praying hands)","__v":0}
+{"_id":{"$oid":"574835aef29e8a0300cbb444"},"name":"Elbow to face","category":"Body holds \u0026 grabs - two hand on two (Praying hands)","group":"6th-kyu","__v":0}
+{"_id":{"$oid":"574835b9f29e8a0300cbb445"},"name":"Double knife edge","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Praying hands)","__v":0}
+{"_id":{"$oid":"574835d1f29e8a0300cbb446"},"name":"High with elbow to face","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Pointing)","__v":0}
+{"_id":{"$oid":"574835e4f29e8a0300cbb447"},"name":"Low with elbow to ribs","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Pointing)","__v":0}
+{"_id":{"$oid":"574835faf29e8a0300cbb448"},"name":"Liberating right hand","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Slapping)","__v":0}
+{"_id":{"$oid":"57483605f29e8a0300cbb449"},"name":"Liberating left hand","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Slapping)","__v":0}
+{"_id":{"$oid":"57483612f29e8a0300cbb44a"},"name":"Liberating both hands","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Slapping)","__v":0}
+{"_id":{"$oid":"57483623f29e8a0300cbb44b"},"name":"Cross over knife edge (outside scoop)","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Slapping)","__v":0}
+{"_id":{"$oid":"57483637f29e8a0300cbb44c"},"name":"Figure four","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Elbow manipulation)","__v":0}
+{"_id":{"$oid":"57483644f29e8a0300cbb44d"},"name":"Straight arm lock (bar arm)","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Elbow manipulation)","__v":0}
+{"_id":{"$oid":"57483658f29e8a0300cbb44e"},"name":"Scoop break elbow over shoulder","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Elbow manipulation)","__v":0}
+{"_id":{"$oid":"5748367cf29e8a0300cbb44f"},"name":"Key turn 180 (street entry)","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Elbow manipulation)","description":"(Convert to figure 4/ hammer lock)","__v":0}
+{"_id":{"$oid":"574836a8f29e8a0300cbb450"},"name":"One finger fish hook","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Liberate \u0026 strike)","__v":0}
+{"_id":{"$oid":"574836b4f29e8a0300cbb451"},"name":"Double thumb eye gouge","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Liberate \u0026 strike)","__v":0}
+{"_id":{"$oid":"5748373bf29e8a0300cbb452"},"name":"Index finger knuckle thrust","group":"6th-kyu","category":"Body holds \u0026 grabs - two hand on two (Liberate \u0026 strike)","__v":0}
+{"_id":{"$oid":"5748376bf29e8a0300cbb453"},"name":"Bowing wrist lock (Nikiyo)","group":"6th-kyu","category":"Body holds \u0026 grabs - One hand on one - Same hand","__v":0}
+{"_id":{"$oid":"57483790f29e8a0300cbb454"},"name":"Figure 4","group":"6th-kyu","category":"Body holds \u0026 grabs - One hand on one - Same hand","__v":0}
+{"_id":{"$oid":"57483797f29e8a0300cbb455"},"name":"Hammer lock","group":"6th-kyu","category":"Body holds \u0026 grabs - One hand on one - Same hand","__v":0}
+{"_id":{"$oid":"574837a6f29e8a0300cbb456"},"name":"Straight arm lock (Kimura inside)","group":"6th-kyu","category":"Body holds \u0026 grabs - One hand on one - Same hand","__v":0}
+{"_id":{"$oid":"574837d1f29e8a0300cbb457"},"name":"Wrist lock inside (kote gaeshi)","group":"6th-kyu","category":"Body holds \u0026 grabs - One hand on one - Cross hold","__v":0}
+{"_id":{"$oid":"574837e2f29e8a0300cbb458"},"name":"Wrist lock outside (kote mawashi)","group":"6th-kyu","category":"Body holds \u0026 grabs - One hand on one - Cross hold","__v":0}
+{"_id":{"$oid":"574837eaf29e8a0300cbb459"},"name":"Elbow lock","group":"6th-kyu","category":"Body holds \u0026 grabs - One hand on one - Cross hold","__v":0}
+{"_id":{"$oid":"574837f6f29e8a0300cbb45a"},"name":"Straight arm lock (bar arm)","group":"6th-kyu","category":"Body holds \u0026 grabs - One hand on one - Cross hold","__v":0}
+{"_id":{"$oid":"5748382bf29e8a0300cbb45b"},"name":"Knife edge to break hold","group":"6th-kyu","category":"Body holds \u0026 grabs - Two hands on one hand","__v":0}
+{"_id":{"$oid":"5748383ef29e8a0300cbb45c"},"name":"Wrist lock","group":"6th-kyu","category":"Body holds \u0026 grabs - Two hands on one hand","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"57483849f29e8a0300cbb45d"},"name":"Nikiyo wrist lock","group":"6th-kyu","category":"Body holds \u0026 grabs - Two hands on one hand","__v":0}
+{"_id":{"$oid":"57483850f29e8a0300cbb45e"},"name":"Pointing","group":"6th-kyu","category":"Body holds \u0026 grabs - Two hands on one hand","__v":0}
+{"_id":{"$oid":"57483857f29e8a0300cbb45f"},"name":"Windmill","group":"6th-kyu","category":"Body holds \u0026 grabs - Two hands on one hand","__v":0,"description":"(Outside to inside slap groin)"}
+{"_id":{"$oid":"57483a73f29e8a0300cbb460"},"name":"Free hand to manipulate elbow","group":"6th-kyu","category":"Body holds \u0026 grabs - Two hands on one hand","description":"(Under/ over/ pull across)","__v":0}
+{"_id":{"$oid":"57483adaf29e8a0300cbb461"},"name":"Circle to figure 4","group":"6th-kyu","category":"Body holds \u0026 grabs - Opponent grabs upper arm","__v":0}
+{"_id":{"$oid":"57483ae5f29e8a0300cbb462"},"name":"Circle to hammer lock","group":"6th-kyu","category":"Body holds \u0026 grabs - Opponent grabs upper arm","__v":0}
+{"_id":{"$oid":"57483af6f29e8a0300cbb463"},"name":"Saluting","group":"6th-kyu","category":"Body holds \u0026 grabs - Opponent grabs upper arm","description":"(Cross hold to bicep)","__v":0}
+{"_id":{"$oid":"57483b24f29e8a0300cbb464"},"name":"Wrist lock","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - One handed strangulation","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"57483b2df29e8a0300cbb465"},"name":"Nikiyo","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - One handed strangulation","__v":0}
+{"_id":{"$oid":"57483b37f29e8a0300cbb466"},"name":"Figure four","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - One handed strangulation","__v":0}
+{"_id":{"$oid":"57483b44f29e8a0300cbb467"},"name":"Straight arm lock","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - One handed strangulation","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"57483bcff29e8a0300cbb468"},"name":"Bar arm escape","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - Double handed strangulation","__v":0}
+{"_id":{"$oid":"57483be6f29e8a0300cbb469"},"name":"Over the top","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - Double handed strangulation","description":"(Outside wrist lock)","__v":0}
+{"_id":{"$oid":"57483c1bf29e8a0300cbb46a"},"name":"Straight up","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - Double handed strangulation","description":"(Inside wrist lock)","__v":0}
+{"_id":{"$oid":"57483c27f29e8a0300cbb46b"},"name":"Windmill escape","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - Double handed strangulation","__v":0}
+{"_id":{"$oid":"57483c65f29e8a0300cbb46c"},"name":"Stepping into opponent take down","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - From behind strangulation","__v":0}
+{"_id":{"$oid":"57483c74f29e8a0300cbb46d"},"name":"Stepping outside of opponent take down","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - From behind strangulation","__v":0}
+{"_id":{"$oid":"57483c83f29e8a0300cbb46e"},"name":"Defence against chinese deathlock","group":"6th-kyu","category":"Body holds \u0026 grabs - Strangle hold - From behind strangulation","__v":0}
+{"_id":{"$oid":"57483cbcf29e8a0300cbb46f"},"name":"Five different atemi","group":"6th-kyu","category":"Body holds \u0026 grabs - Bear hug","description":"Shin scrape, foot stomp, scorpion pinch, head butt, groin slap","__v":0}
+{"_id":{"$oid":"57483cc5f29e8a0300cbb470"},"name":"Windmill escape","group":"6th-kyu","category":"Body holds \u0026 grabs - Bear hug","__v":0}
+{"_id":{"$oid":"57483ccff29e8a0300cbb471"},"name":"Knuckle escape","group":"6th-kyu","category":"Body holds \u0026 grabs - Bear hug","__v":0}
+{"_id":{"$oid":"57483cddf29e8a0300cbb472"},"name":"Pinkie finger manipulation escape","group":"6th-kyu","category":"Body holds \u0026 grabs - Bear hug","__v":0}
+{"_id":{"$oid":"57483cf1f29e8a0300cbb473"},"name":"Shoulder shrug and hip thrust","group":"6th-kyu","category":"Body holds \u0026 grabs - Bear hug","__v":0}
+{"_id":{"$oid":"57483d0ff29e8a0300cbb474"},"name":"Hands to head prevention","group":"6th-kyu","category":"Body holds \u0026 grabs - Full Nelson","__v":0}
+{"_id":{"$oid":"57483d18f29e8a0300cbb475"},"name":"Body drop escape","group":"6th-kyu","category":"Body holds \u0026 grabs - Full Nelson","__v":0}
+{"_id":{"$oid":"57483d21f29e8a0300cbb476"},"name":"Step behind and lift","group":"6th-kyu","category":"Body holds \u0026 grabs - Full Nelson","__v":0}
+{"_id":{"$oid":"57483d46f29e8a0300cbb477"},"name":"Multiple attackers escape","group":"6th-kyu","category":"Body holds \u0026 grabs - Multiple attackers","description":"Two attackers, one on each arm, student must move towards weaker attacker, get one arm free\nto use on stronger attacker","__v":0}
+{"_id":{"$oid":"57483d6ff29e8a0300cbb478"},"name":"Figure four","group":"6th-kyu","category":"Pain compliance techniques - Push on same shoulder","description":"(Over the top and reverse)","__v":0}
+{"_id":{"$oid":"57483d7ff29e8a0300cbb479"},"name":"Wrist lock","group":"6th-kyu","category":"Pain compliance techniques - Push on same shoulder","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"57483d89f29e8a0300cbb47a"},"name":"Hammer lock","group":"6th-kyu","category":"Pain compliance techniques - Push on same shoulder","__v":0}
+{"_id":{"$oid":"57483d9df29e8a0300cbb47b"},"name":"Shoulder lock into hammer lock","group":"6th-kyu","category":"Pain compliance techniques - Push on opposite shoulder","__v":0}
+{"_id":{"$oid":"57483db5f29e8a0300cbb47c"},"name":"Nerve point behind ear and nose","group":"6th-kyu","category":"Pain compliance techniques - Moving on attacker from behind","__v":0}
+{"_id":{"$oid":"57483dc2f29e8a0300cbb47d"},"name":"Arm between legs and walk attacker","group":"6th-kyu","category":"Pain compliance techniques - Moving on attacker from behind","__v":0}
+{"_id":{"$oid":"57483dd1f29e8a0300cbb47e"},"name":"Attacker threatening with finger and fist","group":"6th-kyu","category":"Pain compliance techniques - Moving on attacker from behind","__v":0}
+{"_id":{"$oid":"57483dfaf29e8a0300cbb47f"},"name":"Finger lock against guard","group":"6th-kyu","category":"Gun hold ups - High to face","__v":0}
+{"_id":{"$oid":"57483e06f29e8a0300cbb480"},"name":"Vertical wrist lock","group":"6th-kyu","category":"Gun hold ups - High to face","__v":0}
+{"_id":{"$oid":"57483e11f29e8a0300cbb481"},"name":"Strike with body of firearm","group":"6th-kyu","category":"Gun hold ups - High to face","__v":0}
+{"_id":{"$oid":"57483e1ff29e8a0300cbb482"},"name":"Gun off body/ twist towards attacker","group":"6th-kyu","category":"Gun hold ups - High to face","__v":0}
+{"_id":{"$oid":"57483e32f29e8a0300cbb483"},"name":"Inside defence","group":"6th-kyu","category":"Gun hold ups - Side of face","__v":0}
+{"_id":{"$oid":"57483e3bf29e8a0300cbb484"},"name":"Outside defence","group":"6th-kyu","category":"Gun hold ups - Side of face","__v":0}
+{"_id":{"$oid":"57483e57f29e8a0300cbb485"},"name":"Inside defence","group":"6th-kyu","category":"Gun hold ups - Gun to side/ front of body low","__v":0}
+{"_id":{"$oid":"57483e64f29e8a0300cbb486"},"name":"Outside defence","group":"6th-kyu","category":"Gun hold ups - Gun to side/ front of body low","__v":0}
+{"_id":{"$oid":"57483e7ef29e8a0300cbb487"},"name":"Inside defence","group":"6th-kyu","category":"Gun hold ups - Gun high from behind","__v":0}
+{"_id":{"$oid":"57483e86f29e8a0300cbb488"},"name":"Outside defence","group":"6th-kyu","category":"Gun hold ups - Gun high from behind","__v":0}
+{"_id":{"$oid":"57483e94f29e8a0300cbb489"},"name":"Inside defence","group":"6th-kyu","category":"Gun hold ups - Gun low from behind","__v":0}
+{"_id":{"$oid":"57483ea1f29e8a0300cbb48a"},"name":"Outside defence","group":"6th-kyu","category":"Gun hold ups - Gun low from behind","__v":0}
+{"_id":{"$oid":"57483eb6f29e8a0300cbb48b"},"name":"Defence against various drawing positions","group":"6th-kyu","category":"Gun hold ups - Drawing positions","__v":0}
+{"_id":{"$oid":"574840e2f29e8a0300cbb48c"},"name":"8 basic raking actions","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Applied from strike","__v":0}
+{"_id":{"$oid":"574840eff29e8a0300cbb48d"},"name":"Striking areas","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Applied from strike","__v":0}
+{"_id":{"$oid":"574840f9f29e8a0300cbb48e"},"name":"Nerve centres","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Applied from strike","__v":0}
+{"_id":{"$oid":"57484101f29e8a0300cbb48f"},"name":"Hammer lock","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Applied from strike","__v":0}
+{"_id":{"$oid":"5748410af29e8a0300cbb490"},"name":"Figure 4","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Applied from strike","__v":0}
+{"_id":{"$oid":"57484112f29e8a0300cbb491"},"name":"Straight arm lock","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Applied from strike","__v":0}
+{"_id":{"$oid":"574844f3f29e8a0300cbb492"},"name":"Shoulder/ clavicle lock take down","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Take downs","__v":0}
+{"_id":{"$oid":"574844fbf29e8a0300cbb493"},"name":"Hog trip","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Take downs","__v":0}
+{"_id":{"$oid":"57484503f29e8a0300cbb494"},"name":"Neck twist","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Take downs","__v":0}
+{"_id":{"$oid":"57484512f29e8a0300cbb495"},"name":"Nerve centre take downs","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Take downs","__v":0}
+{"_id":{"$oid":"5748451af29e8a0300cbb496"},"name":"Back leg drop","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Take downs","__v":0}
+{"_id":{"$oid":"57484521f29e8a0300cbb497"},"name":"Front leg drop","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Take downs","__v":0}
+{"_id":{"$oid":"5748452bf29e8a0300cbb498"},"name":"Straight arm lock take down","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Take downs","__v":0}
+{"_id":{"$oid":"57484548f29e8a0300cbb499"},"name":"Opponent grabs hair/ shirt/ wrist","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Grabs","__v":0}
+{"_id":{"$oid":"57484555f29e8a0300cbb49a"},"name":"Attempted strangle hold","group":"5th-kyu","category":"Ninja keyring (Kabuton spike) - Grabs","__v":0}
+{"_id":{"$oid":"57484594f29e8a0300cbb49b"},"name":"Standard right","group":"5th-kyu","category":"Knife work - Stances","description":"Knife in right hand, behind left hand","__v":0}
+{"_id":{"$oid":"574845aff29e8a0300cbb49c"},"name":"Reverse right","group":"5th-kyu","category":"Knife work - Stances","description":"Knife in right hand, in front of left hand","__v":0}
+{"_id":{"$oid":"574845c6f29e8a0300cbb49d"},"name":"Standard left","group":"5th-kyu","category":"Knife work - Stances","description":"Knife in left hand, behind right hand","__v":0}
+{"_id":{"$oid":"574845daf29e8a0300cbb49e"},"name":"Reverse left","group":"5th-kyu","category":"Knife work - Stances","description":"Knife in left hand , in front of right hand","__v":0}
+{"_id":{"$oid":"57484625f29e8a0300cbb49f"},"name":"Drawing techniques","group":"5th-kyu","category":"Knife work - Drawing Techniques","description":"Blade must be drawn quickly with right motion\nDraw from all positions\nPractice with folding blade\nPractice with attacker","__v":0}
+{"_id":{"$oid":"57484656f29e8a0300cbb4a0"},"name":"81 Cuts drill","group":"5th-kyu","category":"Knife work - Cuts","description":"Cut 1 –Diagonal top right to bottom left\nCut 2 – Diagonal top left to bottom right\nCut 3 – Horizontal right to left\nCut 4 – Horizontal left to right\nCut 5 – Straight stab/thrust lower abdomen\nCut 6 – Diagonal bottom left to top right\nCut 7 – Diagonal bottom right to top left\nCut 8 – Straight stab/thrust to upper left clavicle cavity\nCut 9 – Straight stab/thrust to upper right clavicle cavity\nSTUDENTS MUST DRILL THE 81 CUTS AT THIS POINT","__v":0}
+{"_id":{"$oid":"5748469df29e8a0300cbb4a1"},"name":"Stop by following means","group":"5th-kyu","category":"Knife work - Stopping an attack","description":"Structurally – Bones and Joints\nMechanically – Muscles and Tendons\nPneumatically – Air passages\nHydraulically – Loss of fluids\nElectrically – Disruption of the nervous system\nChemically – Mixing of body fluids, toxicity\nMake sure you break your opponents OODA cycle (Observation, Orientation, Decision and Action) to gain an advantage","__v":0}
+{"_id":{"$oid":"574846d4f29e8a0300cbb4a2"},"name":"Knife drills","group":"5th-kyu","category":"Knife work - Drills","description":"Knife swap out drills\nZombie drills – attack and defense\nCut check drills\nFraming drills\nProbing drills","__v":0}
+{"_id":{"$oid":"574846fdf29e8a0300cbb4a3"},"name":"Elbow disarm","group":"5th-kyu","category":"Knife work - knife vs knife disarms","__v":0}
+{"_id":{"$oid":"57484707f29e8a0300cbb4a4"},"name":"Thumb shave disarm","group":"5th-kyu","category":"Knife work - knife vs knife disarms","__v":0}
+{"_id":{"$oid":"57484715f29e8a0300cbb4a5"},"name":"Hand stab disarm","group":"5th-kyu","category":"Knife work - knife vs knife disarms","__v":0}
+{"_id":{"$oid":"57484740f29e8a0300cbb4a6"},"name":"Parries","group":"5th-kyu","category":"Knife work - Defence against knife","description":"Parry any knife attack using a slapping motion to the opponent’s forearm. Same side refers to same side as your parrying hand, cross side refers to opposite side to your parrying hand.","__v":0}
+{"_id":{"$oid":"5748478bf29e8a0300cbb4a7"},"name":"360° knife defence drill","group":"5th-kyu","category":"Knife work - Defence against knife","description":"Inner knife edge deflections","__v":0}
+{"_id":{"$oid":"574847a8f29e8a0300cbb4a8"},"name":"Palm heel same side","group":"5th-kyu","category":"Knife work - Defence against knife","description":"Palm heel high line strike same side straight up (1\u00262)","__v":0}
+{"_id":{"$oid":"574847b9f29e8a0300cbb4a9"},"name":"Roof block cross side","group":"5th-kyu","category":"Knife work - Defence against knife","description":"Forearm high line strike straight up (1\u00262)","__v":0}
+{"_id":{"$oid":"574847c9f29e8a0300cbb4aa"},"name":"Same side down","group":"5th-kyu","category":"Knife work - Defence against knife","description":"Palm heel straight down low line (3,4,5,6,7)","__v":0}
+{"_id":{"$oid":"574847dff29e8a0300cbb4ab"},"name":"Cross side down","group":"5th-kyu","category":"Knife work - Defence against knife","description":"Opposite of roof block","__v":0}
+{"_id":{"$oid":"574847f2f29e8a0300cbb4ac"},"name":"Mantis adaptation","group":"5th-kyu","category":"Knife work - Defence against knife","description":"Use Mantis adaptation for reverse round house stabs to access weapon","__v":0}
+{"_id":{"$oid":"57484810f29e8a0300cbb4ad"},"name":"Straight high stab","group":"5th-kyu","category":"Knife work - Knife retention","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"57484820f29e8a0300cbb4ae"},"name":"Straight low stab","group":"5th-kyu","category":"Knife work - Knife retention","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"57484835f29e8a0300cbb4af"},"name":"Overhead stab","group":"5th-kyu","category":"Knife work - Knife retention","description":"(Inside/ outside/ mirror)","__v":0}
+{"_id":{"$oid":"57484843f29e8a0300cbb4b0"},"name":"Round house attack","group":"5th-kyu","category":"Knife work - Knife retention","__v":0}
+{"_id":{"$oid":"57484870f29e8a0300cbb4b1"},"name":"Reverse round house attack","group":"5th-kyu","category":"Knife work - Knife retention","__v":0}
+{"_id":{"$oid":"5748487ef29e8a0300cbb4b2"},"name":"Knife to throat against wall","group":"5th-kyu","category":"Knife work - Knife retention","__v":0}
+{"_id":{"$oid":"57484888f29e8a0300cbb4b3"},"name":"Knife to throat from behind","group":"5th-kyu","category":"Knife work - Knife retention","__v":0}
+{"_id":{"$oid":"57484897f29e8a0300cbb4b4"},"name":"Knife to throat from behind (under arm)","group":"5th-kyu","category":"Knife work - Knife retention","__v":0}
+{"_id":{"$oid":"574e8dbc650963030005a96f"},"name":"Aggressive grip","group":"4th-kyu","category":"Jo - Grips","__v":0}
+{"_id":{"$oid":"574e8dcc650963030005a970"},"name":"Passive grip","group":"4th-kyu","category":"Jo - Grips","__v":0}
+{"_id":{"$oid":"574e8dd7650963030005a971"},"name":"Cancealed grip","group":"4th-kyu","category":"Jo - Grips","__v":0}
+{"_id":{"$oid":"574e8e22650963030005a972"},"name":"Vertical strikes","group":"4th-kyu","category":"Jo - Strikes and Rakes","__v":0}
+{"_id":{"$oid":"574e8e2c650963030005a973"},"name":"Diagonal strikes","group":"4th-kyu","category":"Jo - Strikes and Rakes","__v":0}
+{"_id":{"$oid":"574e8e37650963030005a974"},"name":"Horizontal strikes","group":"4th-kyu","category":"Jo - Strikes and Rakes","__v":0}
+{"_id":{"$oid":"574e8e3e650963030005a975"},"name":"Forward jab","group":"4th-kyu","category":"Jo - Strikes and Rakes","__v":0}
+{"_id":{"$oid":"574e8e46650963030005a976"},"name":"Reverse jab","group":"4th-kyu","category":"Jo - Strikes and Rakes","__v":0}
+{"_id":{"$oid":"574e8e50650963030005a977"},"name":"Strikes to multiple targets","group":"4th-kyu","category":"Jo - Strikes and Rakes","__v":0}
+{"_id":{"$oid":"574e8e6d650963030005a978"},"name":"Straight high attack","group":"4th-kyu","category":"Jo - Deflections","description":"(Inside/ Outside)","__v":0}
+{"_id":{"$oid":"574e8e85650963030005a979"},"name":"Straight low attack","group":"4th-kyu","category":"Jo - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574e8e91650963030005a97a"},"name":"Roundhouse attack","group":"4th-kyu","category":"Jo - Deflections","__v":0}
+{"_id":{"$oid":"574e8ea2650963030005a97b"},"name":"Reverse round house attack","group":"4th-kyu","category":"Jo - Deflections","__v":0}
+{"_id":{"$oid":"574e8eb1650963030005a97c"},"name":"Overhand attack","group":"4th-kyu","category":"Jo - Deflections","description":"(Inside / outside)","__v":0}
+{"_id":{"$oid":"574e8eca650963030005a97d"},"name":"Wrist lock","group":"4th-kyu","category":"Jo - Locks and immobilazations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574e8ed7650963030005a97e"},"name":"Figure 4","group":"4th-kyu","category":"Jo - Locks and immobilazations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574e8ee3650963030005a97f"},"name":"Neck lock","group":"4th-kyu","category":"Jo - Locks and immobilazations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574e8ef1650963030005a980"},"name":"Tricep lock","group":"4th-kyu","category":"Jo - Locks and immobilazations","description":"(Inside only)","__v":0}
+{"_id":{"$oid":"574e8f09650963030005a981"},"name":"Hog trip","group":"4th-kyu","category":"Jo - Take downs","description":"(Concealed and aggressive)","__v":0}
+{"_id":{"$oid":"574e8f16650963030005a982"},"name":"Neck twist","group":"4th-kyu","category":"Jo - Take downs","description":"(Aggressive only)","__v":0}
+{"_id":{"$oid":"574e8f22650963030005a983"},"name":"Back leg drop","group":"4th-kyu","category":"Jo - Take downs","description":"(Outside only)","__v":0}
+{"_id":{"$oid":"574e8f31650963030005a984"},"name":"Front leg drop","group":"4th-kyu","category":"Jo - Take downs","description":"(Concealed and aggressive)","__v":0}
+{"_id":{"$oid":"574e8f4e650963030005a985"},"name":"Shoulder lock and clavicle lock take down","group":"4th-kyu","category":"Jo - Take downs","__v":0}
+{"_id":{"$oid":"574e8f67650963030005a986"},"name":"Straight arm lock take down","group":"4th-kyu","category":"Jo - Take downs","description":"(Concealed grip only)","__v":0}
+{"_id":{"$oid":"574e8f84650963030005a987"},"name":"Straight high attacks","group":"4th-kyu","category":"Jo - Weapon retention","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574e8f93650963030005a988"},"name":"Round house","group":"4th-kyu","category":"Jo - Weapon retention","__v":0}
+{"_id":{"$oid":"574e8fa0650963030005a989"},"name":"Reverse round house","group":"4th-kyu","category":"Jo - Weapon retention","__v":0}
+{"_id":{"$oid":"574e8fb2650963030005a98a"},"name":"Multiple grip","group":"4th-kyu","category":"Tonfa - Grips","__v":0}
+{"_id":{"$oid":"574e8fbb650963030005a98b"},"name":"Extended grip","group":"4th-kyu","category":"Tonfa - Grips","__v":0}
+{"_id":{"$oid":"574e8fc3650963030005a98c"},"name":"Forearm grip","group":"4th-kyu","category":"Tonfa - Grips","__v":0}
+{"_id":{"$oid":"574e8fd4650963030005a98d"},"name":"Vertical strikes","group":"4th-kyu","category":"Tonfa - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574e905e650963030005a98e"},"name":"Diagonal strikes","group":"4th-kyu","category":"Tonfa - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574e9067650963030005a98f"},"name":"Horizontal strikes","group":"4th-kyu","category":"Tonfa - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574e906e650963030005a990"},"name":"Forward jab","group":"4th-kyu","category":"Tonfa - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574e9079650963030005a991"},"name":"Strikes to multiple targets","group":"4th-kyu","category":"Tonfa - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574e908e650963030005a992"},"name":"Straight high attack","group":"4th-kyu","category":"Tonfa - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574e90a0650963030005a993"},"name":"Straight low attack","group":"4th-kyu","category":"Tonfa - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574e90a8650963030005a994"},"name":"Round house attack","group":"4th-kyu","category":"Tonfa - Deflections","__v":0}
+{"_id":{"$oid":"574e90b1650963030005a995"},"name":"Reverse round house","group":"4th-kyu","category":"Tonfa - Deflections","__v":0}
+{"_id":{"$oid":"574e90c1650963030005a996"},"name":"Over hand attack","group":"4th-kyu","category":"Tonfa - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574e90e1650963030005a997"},"name":"Wrist lock","group":"4th-kyu","category":"Tonfa - Locks \u0026 immobilizations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574e90fd650963030005a998"},"name":"Figure 4","group":"4th-kyu","category":"Tonfa - Locks \u0026 immobilizations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574e910c650963030005a999"},"name":"Hammer lock","group":"4th-kyu","category":"Tonfa - Locks \u0026 immobilizations","description":"(Inside outside)","__v":0}
+{"_id":{"$oid":"574e9121650963030005a99a"},"name":"Hog trip","group":"4th-kyu","category":"Tonfa - Take downs","__v":0}
+{"_id":{"$oid":"574e9127650963030005a99b"},"name":"Neck twist","group":"4th-kyu","category":"Tonfa - Take downs","__v":0}
+{"_id":{"$oid":"574e912f650963030005a99c"},"name":"Back leg drop","group":"4th-kyu","category":"Tonfa - Take downs","__v":0}
+{"_id":{"$oid":"574e9136650963030005a99d"},"name":"Front leg drop","group":"4th-kyu","category":"Tonfa - Take downs","__v":0}
+{"_id":{"$oid":"574e9140650963030005a99e"},"name":"Shoulder lock take down","group":"4th-kyu","category":"Tonfa - Take downs","__v":0}
+{"_id":{"$oid":"574e9149650963030005a99f"},"name":"Straight arm lock take down","group":"4th-kyu","category":"Tonfa - Take downs","__v":0}
+{"_id":{"$oid":"574e915f650963030005a9a0"},"name":"All strikes","group":"4th-kyu","category":"Tonfa - Weapon retention","description":"","__v":0}
+{"_id":{"$oid":"574e91a7650963030005a9a1"},"name":"Overlap (Punyo fist width)","group":"3rd-kyu","category":"Kali - Grips","__v":0}
+{"_id":{"$oid":"574e91b5650963030005a9a2"},"name":"Side thumb","group":"3rd-kyu","category":"Kali - Grips","__v":0}
+{"_id":{"$oid":"574e91bf650963030005a9a3"},"name":"Reverse","group":"3rd-kyu","category":"Kali - Grips","__v":0}
+{"_id":{"$oid":"574e91cb650963030005a9a4"},"name":"Normal stance","group":"3rd-kyu","category":"Kali - Stances","__v":0}
+{"_id":{"$oid":"574e91d4650963030005a9a5"},"name":"Forward stance","group":"3rd-kyu","category":"Kali - Stances","__v":0}
+{"_id":{"$oid":"574e91dc650963030005a9a6"},"name":"Long/ deep","group":"3rd-kyu","category":"Kali - Stances","__v":0}
+{"_id":{"$oid":"574e91e9650963030005a9a7"},"name":"Normal","group":"3rd-kyu","category":"Kali - Strikes","__v":0}
+{"_id":{"$oid":"574e91f0650963030005a9a8"},"name":"Slash","group":"3rd-kyu","category":"Kali - Strikes","__v":0}
+{"_id":{"$oid":"574e91fd650963030005a9a9"},"name":"Thrust","group":"3rd-kyu","category":"Kali - Strikes","__v":0}
+{"_id":{"$oid":"574e9209650963030005a9aa"},"name":"Butt","group":"3rd-kyu","category":"Kali - Strikes","__v":0}
+{"_id":{"$oid":"574e9212650963030005a9ab"},"name":"Abedniko","group":"3rd-kyu","category":"Kali - Strikes","__v":0}
+{"_id":{"$oid":"574e9217650963030005a9ac"},"name":"Wittik","group":"3rd-kyu","category":"Kali - Strikes","__v":0}
+{"_id":{"$oid":"574e923e650963030005a9ad"},"name":"12 count strikes","group":"3rd-kyu","category":"Kali - 12 count strikes","description":"Left and right are opponent’s side:\n1. Left head/neck\n2. Right head/neck\n3. Left ribs\n4. Right ribs\n5. Left abdomen\n6. Right abdomen\n7. Left Knee\n8. Right Knee\n9. Left Collarbone/chest\n10. Right Collarbone/chest\n11. Left diagonal down head\n12. Right Diagonal down head","__v":0}
+{"_id":{"$oid":"574e9266650963030005a9ae"},"name":"12 count blocks","group":"3rd-kyu","category":"Kali - 12 count blocks","description":"When blocking with one stick make sure hand is behind stick.\nBlocks are repetitive 1, 3 and 2, 4 are the same, Block stick with stick and hand with hand\n5\u00266 Block stick downwards hand on hand\n7\u00268 Block stick downwards hand on hand, Palm up\n11 Block stick, overhead touching shoulder","__v":0}
+{"_id":{"$oid":"574e928e650963030005a9af"},"name":"Hitting the hand","group":"3rd-kyu","category":"Kali - 12 count stick disarming","description":"That is holding the stick, then take stick with other hand. Here you may use wittick and normal strikes. Same movements as on the blocking drill.","__v":0}
+{"_id":{"$oid":"574e92b5650963030005a9b0"},"name":"Snake disarm","group":"3rd-kyu","category":"Kali - 12 count stick disarming","description":"Here you use your arm (doesn’t matter which one) to curl around your opponents weapon and with a quick movement disarm him/her.","__v":0}
+{"_id":{"$oid":"574e92d5650963030005a9b1"},"name":"Grapevine","group":"3rd-kyu","category":"Kali - 12 count stick disarming","description":"Use you stick as leverage to get the other stick out of your opponents arm.","__v":0}
+{"_id":{"$oid":"574e93c4650963030005a9b2"},"name":"Stripping","group":"3rd-kyu","category":"Kali - 12 count stick disarming","description":"Glide along the opponents stick with yours, hitting the hand and pulling away the stick","__v":0}
+{"_id":{"$oid":"574e93d8650963030005a9b3"},"name":"Normal","group":"3rd-kyu","category":"Kali - Sticada drills","description":"High, Back Hand, Forehand","__v":0}
+{"_id":{"$oid":"574e93e4650963030005a9b4"},"name":"Modified","group":"3rd-kyu","category":"Kali - Sticada drills","description":"High, forehand and back hand, low forehand and backhand","__v":0}
+{"_id":{"$oid":"574e93fc650963030005a9b5"},"name":"Broken","group":"3rd-kyu","category":"Kali - Sticada drills","description":"High, forehand, low forehand, low backhand, high back hand","__v":0}
+{"_id":{"$oid":"574e9414650963030005a9b6"},"name":"Heaven drill","group":"3rd-kyu","category":"Kali - Sticada drills","description":"6 counts","__v":0}
+{"_id":{"$oid":"574e9422650963030005a9b7"},"name":"Heaven and earth drill","group":"3rd-kyu","category":"Kali - Sticada drills","description":"6 counts","__v":0}
+{"_id":{"$oid":"574e9438650963030005a9b8"},"name":"Passive","group":"3rd-kyu","category":"Hanbo - Grips","__v":0}
+{"_id":{"$oid":"574e9449650963030005a9b9"},"name":"Concealed","group":"3rd-kyu","category":"Hanbo - Grips","__v":0}
+{"_id":{"$oid":"574e9455650963030005a9ba"},"name":"Aggressive","group":"3rd-kyu","category":"Hanbo - Grips","__v":0}
+{"_id":{"$oid":"574e9465650963030005a9bb"},"name":"Vertical","group":"3rd-kyu","category":"Hanbo - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574e946d650963030005a9bc"},"name":"Diagonal","group":"3rd-kyu","category":"Hanbo - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574e9473650963030005a9bd"},"name":"Horizontal","group":"3rd-kyu","category":"Hanbo - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574e9479650963030005a9be"},"name":"Forward jab","group":"3rd-kyu","category":"Hanbo - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574e9480650963030005a9bf"},"name":"Reverse jab","group":"3rd-kyu","category":"Hanbo - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574e9489650963030005a9c0"},"name":"Distance strikes","group":"3rd-kyu","category":"Hanbo - Strikes and rakes","__v":0}
+{"_id":{"$oid":"574ea65a650963030005a9c1"},"name":"Straight high attack","group":"3rd-kyu","category":"Hanbo - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea667650963030005a9c2"},"name":"Straight low attack","group":"3rd-kyu","category":"Hanbo - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea66f650963030005a9c3"},"name":"Round house attack","group":"3rd-kyu","category":"Hanbo - Deflections","__v":0}
+{"_id":{"$oid":"574ea679650963030005a9c4"},"name":"Reverse round house attack","group":"3rd-kyu","category":"Hanbo - Deflections","__v":0}
+{"_id":{"$oid":"574ea688650963030005a9c5"},"name":"Overhand attack","group":"3rd-kyu","category":"Hanbo - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea696650963030005a9c6"},"name":"Void","group":"3rd-kyu","category":"Hanbo - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea6a3650963030005a9c7"},"name":"Water","group":"3rd-kyu","category":"Hanbo - Deflections","description":"(Strike to throat)","__v":0}
+{"_id":{"$oid":"574ea6b0650963030005a9c8"},"name":"Deflections against sword","group":"3rd-kyu","category":"Hanbo - Deflections","__v":0}
+{"_id":{"$oid":"574ea6ce650963030005a9c9"},"name":"Wrist lock","group":"3rd-kyu","category":"Hanbo - Locks \u0026 immobilizations","description":"Concealed only (Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea6dc650963030005a9ca"},"name":"Tricep lock","group":"3rd-kyu","category":"Hanbo - Locks \u0026 immobilizations","description":"(X Lock)","__v":0}
+{"_id":{"$oid":"574ea6f1650963030005a9cb"},"name":"Neck lock","group":"3rd-kyu","category":"Hanbo - Locks \u0026 immobilizations","description":"(5 types)","__v":0}
+{"_id":{"$oid":"574ea703650963030005a9cc"},"name":"Figure 4","group":"3rd-kyu","category":"Hanbo - Locks \u0026 immobilizations","description":"Both grips (Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea715650963030005a9cd"},"name":"Hammer lock","group":"3rd-kyu","category":"Hanbo - Locks \u0026 immobilizations","description":"Both grips (Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea731650963030005a9ce"},"name":"Hog trip","group":"3rd-kyu","category":"Hanbo - Take downs","description":"(Block outside, scoop inside)","__v":0}
+{"_id":{"$oid":"574ea73b650963030005a9cf"},"name":"Front leg drop","group":"3rd-kyu","category":"Hanbo - Take downs","__v":0}
+{"_id":{"$oid":"574ea747650963030005a9d0"},"name":"Shoulder/ clavicle drop","group":"3rd-kyu","category":"Hanbo - Take downs","__v":0}
+{"_id":{"$oid":"574ea756650963030005a9d1"},"name":"Tricep take down","group":"3rd-kyu","category":"Hanbo - Take downs","description":"(Block right handed)","__v":0}
+{"_id":{"$oid":"574ea75e650963030005a9d2"},"name":"Bicep take down","group":"3rd-kyu","category":"Hanbo - Take downs","__v":0}
+{"_id":{"$oid":"574ea764650963030005a9d3"},"name":"Leg sweep","group":"3rd-kyu","category":"Hanbo - Take downs","__v":0}
+{"_id":{"$oid":"574ea777650963030005a9d4"},"name":"From all strikes","group":"3rd-kyu","category":"Hanbo - Weapon retention","__v":0}
+{"_id":{"$oid":"574ea781650963030005a9d5"},"name":"Both hands in middle","group":"3rd-kyu","category":"Hanbo - Weapon retention","__v":0}
+{"_id":{"$oid":"574ea799650963030005a9d6"},"name":"Both hands on one side","group":"3rd-kyu","category":"Hanbo - Weapon retention","__v":0}
+{"_id":{"$oid":"574ea7a9650963030005a9d7"},"name":"One hand","group":"3rd-kyu","category":"Hanbo - Weapon retention","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea7c2650963030005a9d8"},"name":"From jabs","group":"3rd-kyu","category":"Hanbo - Weapon retention","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea8cc650963030005a9d9"},"name":"Straight high punch","group":"2nd-kyu","category":"Belt work - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea8fa650963030005a9da"},"name":"Straight low punch","group":"2nd-kyu","category":"Belt work - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea903650963030005a9db"},"name":"Round house","group":"2nd-kyu","category":"Belt work - Deflections","__v":0}
+{"_id":{"$oid":"574ea909650963030005a9dc"},"name":"Back hand","group":"2nd-kyu","category":"Belt work - Deflections","__v":0}
+{"_id":{"$oid":"574ea910650963030005a9dd"},"name":"Over hand","group":"2nd-kyu","category":"Belt work - Deflections","__v":0}
+{"_id":{"$oid":"574ea929650963030005a9de"},"name":"Figure 4","group":"2nd-kyu","category":"Belt work - Locks \u0026 immobilizations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea936650963030005a9df"},"name":"Hammer lock","group":"2nd-kyu","category":"Belt work - Locks \u0026 immobilizations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea945650963030005a9e0"},"name":"Straight arm lock","group":"2nd-kyu","category":"Belt work - Locks \u0026 immobilizations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ea94c650963030005a9e1"},"name":"Face lock","group":"2nd-kyu","category":"Belt work - Locks \u0026 immobilizations","__v":0}
+{"_id":{"$oid":"574ea95f650963030005a9e2"},"name":"Neck lock","group":"2nd-kyu","category":"Belt work - Locks \u0026 immobilizations","description":"(Wrist/ back to back)","__v":0}
+{"_id":{"$oid":"574ea976650963030005a9e3"},"name":"Hog trip","group":"2nd-kyu","category":"Belt work - Take downs","__v":0}
+{"_id":{"$oid":"574ea98b650963030005a9e4"},"name":"Front leg drop","group":"2nd-kyu","category":"Belt work - Take downs","__v":0}
+{"_id":{"$oid":"574ea991650963030005a9e5"},"name":"Back leg drop","group":"2nd-kyu","category":"Belt work - Take downs","__v":0}
+{"_id":{"$oid":"574ea9a4650963030005a9e6"},"name":"Hair latch","group":"2nd-kyu","category":"Belt work - Take downs","__v":0}
+{"_id":{"$oid":"574ea9b3650963030005a9e7"},"name":"Neck twist","group":"2nd-kyu","category":"Belt work - Take downs","__v":0}
+{"_id":{"$oid":"574ea9c6650963030005a9e8"},"name":"Straight arm take down to binding","group":"2nd-kyu","category":"Belt work - Take downs","__v":0}
+{"_id":{"$oid":"574ea9e3650963030005a9e9"},"name":"Double stick, single handed","group":"2nd-kyu","category":"Nunchaku - Grips","__v":0}
+{"_id":{"$oid":"574ea9fb650963030005a9ea"},"name":"Central extended","group":"2nd-kyu","category":"Nunchaku - Grips","__v":0}
+{"_id":{"$oid":"574eaa07650963030005a9eb"},"name":"Double stick two handed - passive","group":"2nd-kyu","category":"Nunchaku - Grips","__v":0}
+{"_id":{"$oid":"574eaa14650963030005a9ec"},"name":"Vertical strikes","group":"2nd-kyu","category":"Nunchaku - Strikes","__v":0}
+{"_id":{"$oid":"574eaa1c650963030005a9ed"},"name":"Diagonal strikes","group":"2nd-kyu","category":"Nunchaku - Strikes","__v":0}
+{"_id":{"$oid":"574eaa25650963030005a9ee"},"name":"Horizontal strikes","group":"2nd-kyu","category":"Nunchaku - Strikes","__v":0}
+{"_id":{"$oid":"574eaa3e650963030005a9ef"},"name":"Snake fist","group":"2nd-kyu","category":"Nunchaku - Strikes","__v":0}
+{"_id":{"$oid":"574eaa44650963030005a9f0"},"name":"Snake bite","group":"2nd-kyu","category":"Nunchaku - Strikes","__v":0}
+{"_id":{"$oid":"574eaa4a650963030005a9f1"},"name":"Whip snap","group":"2nd-kyu","category":"Nunchaku - Strikes","__v":0}
+{"_id":{"$oid":"574eaa52650963030005a9f2"},"name":"Chain jab","group":"2nd-kyu","category":"Nunchaku - Strikes","__v":0}
+{"_id":{"$oid":"574eaa58650963030005a9f3"},"name":"Two handed jab","group":"2nd-kyu","category":"Nunchaku - Strikes","__v":0}
+{"_id":{"$oid":"574eaa60650963030005a9f4"},"name":"Double stick snap","group":"2nd-kyu","category":"Nunchaku - Strikes","__v":0}
+{"_id":{"$oid":"574eabf2650963030005a9f5"},"name":"Figure 8","group":"2nd-kyu","category":"Nunchaku - Flaring","__v":0}
+{"_id":{"$oid":"574eabfc650963030005a9f6"},"name":"Figure 8 with grip changes","group":"2nd-kyu","category":"Nunchaku - Flaring","__v":0}
+{"_id":{"$oid":"574eac06650963030005a9f7"},"name":"Behind the back grip change","group":"2nd-kyu","category":"Nunchaku - Flaring","__v":0}
+{"_id":{"$oid":"574eac10650963030005a9f8"},"name":"Under arm grip change","group":"2nd-kyu","category":"Nunchaku - Flaring","__v":0}
+{"_id":{"$oid":"574eac19650963030005a9f9"},"name":"Around neck grip change","group":"2nd-kyu","category":"Nunchaku - Flaring","__v":0}
+{"_id":{"$oid":"574eac22650963030005a9fa"},"name":"Under leg grip change","group":"2nd-kyu","category":"Nunchaku - Flaring","__v":0}
+{"_id":{"$oid":"574eac2a650963030005a9fb"},"name":"Waist level grip change","group":"2nd-kyu","category":"Nunchaku - Flaring","__v":0}
+{"_id":{"$oid":"574eac3d650963030005a9fc"},"name":"Straight high","group":"2nd-kyu","category":"Nunchaku - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574eac4b650963030005a9fd"},"name":"Straight low","group":"2nd-kyu","category":"Nunchaku - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574eac51650963030005a9fe"},"name":"Round house","group":"2nd-kyu","category":"Nunchaku - Deflections","__v":0}
+{"_id":{"$oid":"574eac59650963030005a9ff"},"name":"Reverse round house","group":"2nd-kyu","category":"Nunchaku - Deflections","__v":0}
+{"_id":{"$oid":"574eac9b650963030005aa01"},"name":"Over hand","group":"2nd-kyu","category":"Nunchaku - Deflections","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574eacc9650963030005aa02"},"name":"Figure 4","group":"2nd-kyu","category":"Nunchaku - Locks \u0026 immobilizations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574eacd4650963030005aa03"},"name":"Wrist locks","group":"2nd-kyu","category":"Nunchaku - Locks \u0026 immobilizations","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574eacdb650963030005aa04"},"name":"Neck lock","group":"2nd-kyu","category":"Nunchaku - Locks \u0026 immobilizations","__v":0}
+{"_id":{"$oid":"574eace1650963030005aa05"},"name":"Hammer lock","group":"2nd-kyu","category":"Nunchaku - Locks \u0026 immobilizations","__v":0,"description":"(Inside/ outside)"}
+{"_id":{"$oid":"574eacfa650963030005aa06"},"name":"Hog trip","group":"2nd-kyu","category":"Nunchaku - Take downs","__v":0}
+{"_id":{"$oid":"574ead00650963030005aa07"},"name":"Neck twist","group":"2nd-kyu","category":"Nunchaku - Take downs","__v":0}
+{"_id":{"$oid":"574ead07650963030005aa08"},"name":"Back leg drop","group":"2nd-kyu","category":"Nunchaku - Take downs","__v":0}
+{"_id":{"$oid":"574ead10650963030005aa09"},"name":"Fron leg drop","group":"2nd-kyu","category":"Nunchaku - Take downs","__v":0}
+{"_id":{"$oid":"574ead51650963030005aa0a"},"name":"Inside - left and right handed","group":"1st-kyu","category":"Single arm fighting - Deflections","__v":0}
+{"_id":{"$oid":"574ead5f650963030005aa0b"},"name":"Outside - left and right handed","group":"1st-kyu","category":"Single arm fighting - Deflections","__v":0}
+{"_id":{"$oid":"574ead77650963030005aa0c"},"name":"Wrist lock","group":"1st-kyu","category":"Single arm fighting - Locks","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ead83650963030005aa0d"},"name":"Hammer lock","group":"1st-kyu","category":"Single arm fighting - Locks","description":"(Inside/ outside)","__v":0}
+{"_id":{"$oid":"574ead9d650963030005aa0e"},"name":"Hog trip - Neck clamp version","group":"1st-kyu","category":"Single arm fighting - Take downs","__v":0}
+{"_id":{"$oid":"574eada7650963030005aa0f"},"name":"Hog trip - Nasty version","group":"1st-kyu","category":"Single arm fighting - Take downs","__v":0}
+{"_id":{"$oid":"574eadb1650963030005aa10"},"name":"Front leg drop","group":"1st-kyu","category":"Single arm fighting - Take downs","__v":0,"description":"(Outside left handed)"}
+{"_id":{"$oid":"574eadca650963030005aa11"},"name":"Shoulder lock take down","group":"1st-kyu","category":"Single arm fighting - Take downs","__v":0}
+{"_id":{"$oid":"574eadd5650963030005aa12"},"name":"Hair/ head latch take down","group":"1st-kyu","category":"Single arm fighting - Take downs","__v":0}
+{"_id":{"$oid":"574eade8650963030005aa13"},"name":"Inside","group":"1st-kyu","category":"Single arm fighting - Knife disarming","__v":0}
+{"_id":{"$oid":"574eadf9650963030005aa14"},"name":"Outside","group":"1st-kyu","category":"Single arm fighting - Knife disarming","__v":0}
+{"_id":{"$oid":"574eae1d650963030005aa15"},"name":"Overhead","group":"1st-kyu","category":"Sword work - Stances/ grips","description":"(Traditional)","__v":0}
+{"_id":{"$oid":"574eae28650963030005aa16"},"name":"Forearm","group":"1st-kyu","category":"Sword work - Stances/ grips","description":"(Ronin)","__v":0}
+{"_id":{"$oid":"574eae34650963030005aa17"},"name":"Concealed","group":"1st-kyu","category":"Sword work - Stances/ grips","description":"(Ronin)","__v":0}
+{"_id":{"$oid":"574eae42650963030005aa18"},"name":"Side of body","group":"1st-kyu","category":"Sword work - Stances/ grips","description":"(Traditional and Ronin)","__v":0}
+{"_id":{"$oid":"574eae4e650963030005aa19"},"name":"Two handed intimidating","group":"1st-kyu","category":"Sword work - Stances/ grips","__v":0}
+{"_id":{"$oid":"574eae64650963030005aa1a"},"name":"Deflection from decapitation","group":"1st-kyu","category":"Sword work - Deflections","__v":0,"description":"Must be accompanied by counter attack"}
+{"_id":{"$oid":"574eae74650963030005aa1b"},"name":"Deflection from mid-level cut","group":"1st-kyu","category":"Sword work - Deflections","__v":0,"description":"Must be accompanied by counter attack"}
+{"_id":{"$oid":"574eae7e650963030005aa1c"},"name":"Deflection from low-level cut","group":"1st-kyu","category":"Sword work - Deflections","__v":0,"description":"Must be accompanied by counter attack"}
+{"_id":{"$oid":"574eae8d650963030005aa1d"},"name":"Deflection from stright thrust high/ low","group":"1st-kyu","category":"Sword work - Deflections","__v":0,"description":"Must be accompanied by counter attack"}
+{"_id":{"$oid":"574eaeca650963030005aa1e"},"name":"Blood let","group":"1st-kyu","category":"Sword work - Cuts","description":"(Traditional)","__v":0}
+{"_id":{"$oid":"574eaeda650963030005aa1f"},"name":"J-cut","group":"1st-kyu","category":"Sword work - Cuts","description":"(Traditional and Ronin)","__v":0}
+{"_id":{"$oid":"574eaee6650963030005aa20"},"name":"Jab","group":"1st-kyu","category":"Sword work - Cuts","description":"(Traditional and Ronin)","__v":0}
+{"_id":{"$oid":"574eaef6650963030005aa21"},"name":"Reverse jab","group":"1st-kyu","category":"Sword work - Cuts","description":"(Traditional and Ronin)","__v":0}
+{"_id":{"$oid":"574eaf03650963030005aa22"},"name":"Slash","group":"1st-kyu","category":"Sword work - Cuts","description":"(Traditional and Ronin)","__v":0}
+{"_id":{"$oid":"574eaf1e650963030005aa23"},"name":"Cut - Horizontal, vertical and diagonal","group":"1st-kyu","category":"Sword work - Cuts","description":"(Traditional and Ronin)","__v":0}
+{"_id":{"$oid":"574eaf3b650963030005aa24"},"name":"9 Cut Kata","group":"1st-kyu","category":"Sword work - Katas","description":"1. Unsheathe, step forward jab to throat\n2. Lower blade, jab between ribs\n3. Step Forward into J-Cut\n4. Change Grip, step forward into upward diagonal cut\n5. Decapitate\n6. Step backwards, while slashing one handed diagonally downward\n7. Change grip, Diagonal cut upward\n8. Decapitate\n9. Downward vertical cut while thrusting forward (KIA)\n10. Blood Let\n11. Re-sheath\n12. Step Back while Bowing at the same time","__v":0}
+{"_id":{"$oid":"574eaf66650963030005aa25"},"name":"Etiquette Kata","group":"1st-kyu","category":"Sword work - Katas","description":"1. Unsheathe and present weapon (Cutting edge facing you)\n2. Down onto right knee\n3. Left Knee Down\n4. Blade to ground\n5. Right hand to knee\n6. Left hand to knee\n7. Left Hand Zai\n8. Right hand Zai\n9. Bow\n10. Right hand knee\n11. Left hand knee\n12. Left hand blade\n13. Right hand grip\n14. Lift, present, re-sheath, right hand to knee\n15. Draw and Decapitate, lifting right knee off the ground (KIA)\n16. Thrust left foot forward and cut opponent in half vertically (KIA)\n17. Blood Let\n18. Re-sheath\n19. Step back and bow","__v":0}
+{"_id":{"$oid":"574eb025650963030005aa26"},"name":"Ninja - Archery History","group":"archery","category":"Archery - History","description":"The bow was known as a “Yumi” and the arrows were called, “Ya”. The ninja’s bow was short and symmetrical, with a center grip, similar to the larger ones we’ll be training with today. Whereas the longer, asymmetrical Yumi were favored by the Samurai, with the grip lower down on the bow.  The ninja’s shorter bow meant less range on the battlefield, but allowed for closer and more accurate kills with agility.\nNinjas were proficient in using both types of bows, and when needed, could also use the bows from fallen samurai on the battlefield.\nFemale ninja were called “Kunoichi”, and were often experts with the bow and arrow.\nWhen removing the string from the bow, called “slacking”, a ninja could hide the bow with some arrows in a hollow bamboo tube.  This was a great for carrying them over their back, freeing up their hands, or even useful in disguising the assassins as a contractor, who used to carry their blue prints inside bamboo tubes.\nThere were many types of arrows used for different occasions, whether it be a standard arrow head or an explosive one.  Wooden arrows could be dipped in poison to insure any wound was a fatal one.  The Togari-Ya was a simple pointed arrow head design, and a Yanagi-Ba, also known as the “Willow-Leaf” was of a more elegant design.  Rope-cutters were called “Karimata” and had a unique split point. The barbed “Watakushi” was used for tearing flesh. And the Tagone-Ya was shaped like a chisel.\nFor creating a loud whistling effect, the “Kaburi-Ya” was used to strike fear into the hearts of the enemy, or for signalling allies.  These arrows where large enough that they could be signed on, or relay short messages.\nAnd for a more silent approach, certain reeds used with the making of an arrow, could dampen the sound it would make from flying through the air.\nSome say that bamboo arrows were favored among ninjas as they were small and light, making them easy to carry, but still very effective.","__v":0}

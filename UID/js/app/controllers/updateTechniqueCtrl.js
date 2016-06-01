@@ -11,20 +11,33 @@ angular.module('ninjaApp')
             }
         }
 
+        $scope.setTechniqueImage = function(input, target){
+            techniques.toDataURL(input, target, function(data){
+                if(data){
+                    $scope.technique.image = data;
+                    $scope.$apply();
+                }
+                else{
+                    alert('danger', 'Images cannot be larger that 200kb');
+                }
+            });
+        };
+
         $scope.updateTechnique = function(isValid){
             $scope.submitted = true;
             if(isValid){
                 for(t in techniqueData.techniques){
                     if(techniqueData.techniques[t]._id == $stateParams.techniqueId){
                         var index = t;
-
+                        techniqueData.techniques[t].image = $scope.technique.image;
+                        console.log(techniqueData.techniques[t].image)
                         techniques.updateTechnique(techniqueData.techniques[t])
                             .then(
                                 function success(res){
                                     alert('success', 'The technique has been updated!');
                                 },
                                 function error(err){
-                                    alert('danger', 'Something went wrong!');
+                                    alert('danger', 'Could not connect to Ninja Server. Check your internet connection and try again.!');
                                 })
                             .finally(function(){
                                 $state.go('techniqueDetail', {
@@ -67,7 +80,7 @@ angular.module('ninjaApp')
                                 techniqueData.techniques.splice(index, 1);
                             },
                             function error(err){
-                                alert('danger', 'Something went wrong!');
+                                alert('danger', 'Could not connect to Ninja Server. Check your internet connection and try again.!');
                             })
                         .finally(function(){
                             $scope.technique = {};

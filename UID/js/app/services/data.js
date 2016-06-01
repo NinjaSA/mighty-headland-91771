@@ -19,5 +19,5 @@ angular.module('ninjaApp')
         ]
     })
     .service('coursesData', function(){
-        this.courses = ["sai", "kurki", "archery", "grappling" ];
+        this.courses = ["sai", "kukri", "archery", "grappling" ];
     });

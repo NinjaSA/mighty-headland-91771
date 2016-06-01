@@ -4,7 +4,7 @@ angular.module('ninjaApp')
 
         $scope.enabled = true;
 
-        //$scope.courses = ["Sai", "Kurki", "Archery", "Grappling" ];
+        //$scope.courses = ["Sai", "Kukri", "Archery", "Grappling" ];
 
         $scope.addUser = function(isValid){
             $scope.submitted = true;
@@ -25,7 +25,7 @@ angular.module('ninjaApp')
                         }
                     })
                     .error(function(err){
-                        alert('danger', 'Something went wrong!', 5000);
+                        alert('danger', 'Could not connect to Ninja Server. Check your internet connection and try again.!', 5000);
                         $scope.user = {};
                         $state.go('users');
                     });

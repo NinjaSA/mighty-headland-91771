@@ -29,7 +29,7 @@ angular.module('ninjaApp')
                             alert('success', res.data.firstName + ' has been updated!');
                         },
                         function error(res){
-                            alert('danger', 'Something went wrong!', 5000);
+                            alert('danger', 'Could not connect to Ninja Server. Check your internet connection and try again.!', 5000);
                         })
                     .finally(function(){
                         $state.go('users');
@@ -48,7 +48,7 @@ angular.module('ninjaApp')
                     alert('success', name + ' has been removed!');
                     userData.users.splice(usrIndex, 1);
                 }, function error(res){
-                    alert('danger', 'Something went wrong!', 5000);
+                    alert('danger', 'Could not connect to Ninja Server. Check your internet connection and try again.!', 5000);
                 })
                 .finally(function(){
                     $state.go('users');

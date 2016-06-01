@@ -3506,7 +3506,7 @@ tbody.collapse.in {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
   position: absolute;
-  right: 30px;
+  right: 15px;
   width: 50%;
   z-index: 9; }
   .navbar-collapse:before, .navbar-collapse:after {
@@ -3598,7 +3598,7 @@ tbody.collapse.in {
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right: 15px;
+  margin-right: 0;
   padding: 5px 15px;
   margin-top: 10px;
   margin-bottom: 8px;
@@ -3607,6 +3607,9 @@ tbody.collapse.in {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px; }
+  @media (max-width: 420px) {
+    .navbar-toggle {
+      margin-right: 15px; } }
   .navbar-toggle:focus {
     outline: 0; }
   .navbar-toggle .icon-bar {
@@ -5342,6 +5345,9 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
 .container {
   padding: 0 2% 30px;
   max-width: 480px; }
+  @media (min-width: 480px) {
+    .container {
+      padding: 0 0 30px; } }
 
 .container-fluid {
   max-width: 480px;
@@ -5371,6 +5377,18 @@ h1.heading {
   border: none;
   color: #fff;
   height: 18px; }
+
+.upload-image {
+  position: relative; }
+  .upload-image input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0; }
+  .upload-image + em {
+    color: #7c7c7c; }
 
 .alert {
   padding: 15px 0;
@@ -5419,6 +5437,19 @@ h1.heading {
 
 .techniquesList {
   padding-top: 20px; }
+
+.technique-image {
+  padding: 10px;
+  position: relative;
+  text-align: center; }
+  .technique-image img {
+    max-width: 300px; }
+  .technique-image .glyphicon-remove {
+    color: red;
+    font-size: 26px;
+    right: 0%;
+    position: absolute;
+    top: -10%; }
 
 .search .col-lg-12 {
   padding: 20px 0 0; }

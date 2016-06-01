@@ -23,7 +23,7 @@ angular.module('ninjaApp')
                             }
                         },
                         function error(res){
-                            alert('danger', 'Something went wrong!');
+                            alert('danger', 'Could not connect to Ninja Server. Check your internet connection and try again.!');
                         }
                     );
             }

@@ -47,7 +47,7 @@
   @include clearfix;
   -webkit-overflow-scrolling: touch;
   position: absolute;
-  right: 30px;
+  right: 15px;
   width: 50%;
   z-index:9;
 
@@ -187,7 +187,7 @@
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right:15px;
+  margin-right:0;
     padding: 5px 15px;
     margin-top: 10px;
     margin-bottom: 8px;
@@ -197,6 +197,9 @@
   border: 1px solid transparent;
   border-radius: $border-radius-base;
 
+    @media (max-width: '420px') {
+        margin-right:15px;
+    }
   // We remove the `outline` here, but later compensate by attaching `:hover`
   // styles to `:focus`.
   &:focus {

@@ -18,4 +18,8 @@
     <div class="well description" ng-show="technique.description">
         {{ technique.description }}
     </div>
+
+    <div class="technique-image" ng-show="technique.image">
+        <img ng-src="{{ technique.image }}" alt="{{ technique.name }}" />
+    </div>
 </div>

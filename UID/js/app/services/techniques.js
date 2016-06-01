@@ -3,12 +3,47 @@ angular.module('ninjaApp')
         this.addTechnique = function(newTechniqueObject){
             return $http.post(API_URL + '/technique', newTechniqueObject);
         };
+
         this.updateTechnique = function(techniqueObject){
             return $http.put(API_URL + '/technique', techniqueObject);
         };
+
         this.removeTechnique = function(techniqueObject){
             return $http.delete(API_URL + '/technique?id=' + techniqueObject._id);
         };
+
+        this.toDataURL = function(input, target, callback) {
+            var dataURL;
+            var file = input.files[0];
+            var reader = new FileReader();
+
+            if(file.size > 300000) {
+                callback(false);
+                return false;
+            }
+
+            reader.onload = function(e) {
+                dataURL = e.target.result;
+
+                var img = new Image();
+
+                img.onload = function(){
+                    var canvas = document.createElement("canvas");
+                    canvas.width = this.width;
+                    canvas.height = this.height;
+
+                    canvas
+                        .getContext("2d")
+                        .drawImage(this, 0, 0, this.width, this.height);
+
+                    if(callback) callback(canvas.toDataURL());
+                    document.querySelector(target).src = canvas.toDataURL();
+                };
+                img.src = dataURL;
+            };
+            reader.readAsDataURL(file);
+        };
+
         this.uploadVideo = function(video, callback){
              updateProgress(0);
 

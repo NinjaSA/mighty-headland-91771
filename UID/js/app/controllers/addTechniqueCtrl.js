@@ -1,5 +1,19 @@
 angular.module('ninjaApp')
     .controller('addTechniqueCtrl', ['$rootScope', '$scope', '$state', 'alert', 'techniques', 'techniqueData', function($rootScope, $scope, $state, alert, techniques, techniqueData){
+        $scope.technique = {};
+
+        $scope.setTechniqueImage = function(input, target){
+            techniques.toDataURL(input, target, function(data){
+                if(data){
+                    $scope.technique.image = data;
+                    $scope.$apply();
+                }
+                else{
+                    alert('danger', 'Images cannot be larger that 300kb');
+                }
+            });
+        };
+
         $scope.addTechnique = function(isValid){
             $scope.submitted = true;
             if(isValid){
@@ -10,7 +24,7 @@ angular.module('ninjaApp')
                             alert('success', 'A new technique has been added!');
                         },
                         function error(res){
-                            alert('danger', 'Something went wrong! (' + res + ')');
+                            alert('danger', 'Could not connect to Ninja Server. Check your internet connection and try again.! (' + res + ')');
                         }
                     )
                     .finally(function(){

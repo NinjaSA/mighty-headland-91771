@@ -9,6 +9,10 @@
 .container {
     padding: 0 2% 30px;
     max-width: 480px;
+
+    @media (min-width: '480px') {
+        padding: 0 0 30px;
+    }
 }
 .container-fluid{
     max-width:480px;
@@ -41,6 +45,23 @@ h1.heading{
     border: none;
     color: #fff;
     height: 18px;
+}
+
+.upload-image {
+    position: relative;
+
+    input[type="file"] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        opacity: 0;
+    }
+
+    + em{
+        color: #7c7c7c;
+    }
 }
 
 .alert {
@@ -102,6 +123,24 @@ h1.heading{
 
 .techniquesList {
     padding-top:20px;
+}
+
+.technique-image {
+    padding: 10px;
+    position:relative;
+    text-align: center;
+
+    img{
+        max-width:300px;
+    }
+
+    .glyphicon-remove {
+        color: red;
+        font-size: 26px;
+        right: 0%;
+        position: absolute;
+        top: -10%;
+    }
 }
 
 .search .col-lg-12{
