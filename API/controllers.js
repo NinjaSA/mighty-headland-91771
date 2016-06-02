@@ -99,8 +99,7 @@ exports.updateTechnique = function(req, res){
         technique.category = req.body.category;
         technique.image = req.body.image;
         technique.uploadedBy = req.body.uploadedBy;
-
-        if(req.body.videoUrl) technique.videoUrl = req.body.videoUrl;
+        technique.videoUrl = req.body.videoUrl;
 
         technique.save(function(){
             res.send(technique);
