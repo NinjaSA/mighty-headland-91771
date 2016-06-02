@@ -68,8 +68,10 @@
             // $httpProvider.defaults.useXDomain = true;
             // delete $httpProvider.defaults.headers.common['X-Requested-With'];
     }])
-    .run(['$rootScope', '$http', '$state', 'authToken', function($rootScope, $http, $state, authToken)  {
+    .run(['$rootScope', '$http', '$state', '$templateCache', 'authToken', function($rootScope, $http, $state, $templateCache, authToken)  {
         authToken.removeToken();
+
+        $templateCache.removeAll();
 
         $rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState, fromParams){
             if (toState.authenticate && !authToken.isAuthenticated()){

@@ -5255,7 +5255,7 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
 
 .ui-view-container {
   position: relative;
-  margin: 0 10px; }
+  margin: 0 2%; }
 
 [ui-view].ng-enter, [ui-view].ng-leave {
   position: absolute;
@@ -5382,12 +5382,12 @@ h1.heading {
   position: relative; }
   .upload-image input[type="file"] {
     position: absolute;
-    left: 0;
+    left: 15px;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 45%;
     opacity: 0; }
-  .upload-image + em {
+  .upload-image em {
     color: #7c7c7c; }
 
 .alert {
@@ -5436,7 +5436,10 @@ h1.heading {
   margin: 0 0 30px; }
 
 .techniquesList {
-  padding-top: 20px; }
+  clear: both; }
+  @media (min-width: 1200px) {
+    .techniquesList {
+      padding-top: 10px; } }
 
 .technique-image {
   padding: 10px;
