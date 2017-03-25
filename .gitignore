@@ -2,5 +2,6 @@
 .DS_Store
 UID/node_modules
 API/node_modules
+API/config/config.js
 API/npm-debug.log
 *.sass-cache
